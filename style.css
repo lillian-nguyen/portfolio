@@ -1,0 +1,22 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #C0D3E4;
+    background-image: radial-gradient(circle at 0.8rem 0.8rem, #EFF4F8 0.2rem, transparent 0);
+    background-size: 4rem 4rem;
+}
+
+header {
+    height: 100vh;
+    /* background-image: url('multiblur.jpg');
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    opacity: 0.89; */
+}
+
+header h1 {
+    font-size: 8rem;
+    color: white;
+}
