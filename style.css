@@ -1,11 +1,11 @@
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 html,
 body {
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 /* body {
@@ -23,8 +23,6 @@ header {
     margin-top: -1rem;
 }
 
-
-
 nav ol {
     display: flex;
     justify-content: flex-end;
@@ -32,7 +30,6 @@ nav ol {
     flex-wrap: nowrap;
     height: 7rem;
     margin-bottom: 1rem;
-    /* background-color: pink; */
 }
 
 nav ol li {
@@ -41,8 +38,11 @@ nav ol li {
     margin: 2rem 2rem 0 2rem;
     padding-right: 4rem;
     letter-spacing: 0.3rem;
-    color: rgb(109, 105, 105);
+}
 
+a {
+    text-decoration: none;
+    color: rgb(109, 105, 105);
 }
 
 li::marker {
@@ -93,7 +93,6 @@ li::marker {
 
 .sparkle {
     position: absolute;
-    z-index: 1;
     top: -4rem;
     left: -8.5rem;
     transform: rotate(28deg);
@@ -138,15 +137,132 @@ li::marker {
     }
 }
 
-/* A B O U T */
-/* .about {
-    height: 30vh;
+/* A B O U T : added padding to about side text to see if it affected num scroll. need to check scroll for num too tbh*/
+.about {
+    height: 83vh;
     width: 100vw;
-} */
+    background-size: 3rem 3rem;
+    /* background-color: #EFF4F8; */
+    background-color: white;
+    background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
+    display: flex;
+    flex-direction: row;
+}
 
+.solid-side-nav {
+    background-color: whitesmoke;
+    /* height: 64.7rem; */
+    width: 12vw;
+    position: relative;
+}
 
+.about-navname>ul {
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+}
 
-/* change into bubbly, thicker font for OL markers and the down arrow */
+.sidenav-name {
+    font-size: 3.3rem;
+    letter-spacing: 0.3rem;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    margin-left: -1rem;
+    margin-top: 55rem;
+    text-align: center;
+    padding-left: 30rem;
+    /* background-color: pink; */
+}
+
+.sidenav-num {
+    margin-left: 4.9rem;
+    margin-top: -42rem;
+    font-size: 3.6rem;
+    color: #B4BBC8;
+    position: sticky;
+    top: 10px;
+}
+
+.selfie {
+    position: relative;
+    top: 8.5rem;
+    left: 3.5rem;
+    border-radius: 50%;
+    height: 24rem;
+    width: 24rem;
+    border: 3px solid #E9E4E4;
+    background-color: white;
+    padding: 1.2rem;
+}
+
+.about-LR {
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height: 58vh;
+    width: 69vw;
+    margin-left: 12.8rem;
+    margin-top: 9rem;
+    border-radius: 1.4%;
+}
+
+.about-R {
+    margin-left: 9.7rem;
+    margin-top: 5rem;
+}
+
+.about-R h2 {
+    font-family: "Poppins", sans-serif;
+    margin-top: -0.4rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    color: #B4BBC8;
+    padding-right: 2.2rem;
+    position: relative;
+    top: -6rem;
+    left: 14rem;
+}
+
+.username {
+    font-family: "Inter", sans-serif;
+    color: #93ac9d;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: -4rem;
+}
+
+.about-R hr {
+    width: 82%;
+    margin-left: 0rem;
+    border: 2px solid #E9E4E4;
+}
+
+.about-R p {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 2.5rem;
+    width: 88%;
+    margin-top: 3rem;
+}
+
+/* P R O J E C T S */
+.projects {
+    height: 50vh;
+    width: 100vw;
+    background-color: #E9E4E4;
+}
+
+.projects-sidenav {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 12vw;
+    position: relative;
+    border-top: 2px solid green;
+}
 
 /* M E D I A  Q U E R I E S */
 
@@ -318,7 +434,7 @@ li::marker {
     .header-text {
         font-size: 2.8rem;
         letter-spacing: 0.3rem;
-        top: 25%;
+        top: 22%;
     }
 
     .header-myname {
@@ -335,7 +451,7 @@ li::marker {
 
     .sparkle {
         top: -8rem;
-        left: -8.5rem;
+        left: -11rem;
         transform: rotate(28deg) scale(0.9);
     }
 
