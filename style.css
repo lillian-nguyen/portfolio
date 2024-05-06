@@ -216,10 +216,10 @@ li::marker {
     letter-spacing: 0.4rem;
 }
 
-.fa-brands {
+.fa {
     font-size: 2.5rem;
     color: #B4BBC8;
-    padding-right: 2.2rem;
+    padding-right: 1.6rem;
     position: relative;
     top: -6rem;
     left: 14rem;
