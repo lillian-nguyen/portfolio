@@ -5,22 +5,18 @@ html {
 
 html,
 body {
-    max-width: 100%;
+    height: 100%;
 }
-
-/* body {
-    background-size: 4rem 4rem;
-    background-color: #EFF4F8;
-    background-image: radial-gradient(circle at 0.8rem 0.8rem, #C0D3E4 0.2rem, transparent 0);
-} */
 
 /* H E A D E R */
 
 header {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: #E9E4E4;
-    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 nav ol {
@@ -28,8 +24,7 @@ nav ol {
     justify-content: flex-end;
     align-items: flex-start;
     flex-wrap: nowrap;
-    height: 7rem;
-    margin-bottom: 1rem;
+    margin-top: -0.7%;
 }
 
 nav ol li {
@@ -51,11 +46,12 @@ li::marker {
 }
 
 .headerPhotoContainer {
-    height: 90vh;
-    width: 98vw;
-    margin-top: -5.5rem;
-    margin-left: auto;
-    margin-right: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2%;
     background-image: url('wildflowers.jpg');
     background-repeat: no-repeat;
     background-position: 33%;
@@ -65,15 +61,16 @@ li::marker {
 }
 
 .header-text {
+    height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 2.8rem;
     letter-spacing: 0.3rem;
     color: #8b8f74;
-    position: relative;
-    top: 25%;
 }
 
 .header-myname {
@@ -82,7 +79,6 @@ li::marker {
     color: #93ac9d;
     background-color: rgb(255, 247, 247);
     margin: 0 auto;
-    margin-top: -0.8rem;
 }
 
 .header-location {
@@ -99,16 +95,14 @@ li::marker {
 }
 
 .scrollArrowContainer {
-    position: relative;
-    top: 28vh;
-    left: 48vw;
+    margin-top: 3rem;
     transform: translate(-50%, -50%);
 }
 
 .scrollArrowContainer span {
     display: block;
-    width: 3rem;
-    height: 3rem;
+    width: 2.9rem;
+    height: 2.9rem;
     border-bottom: 3px solid #93ac9d;
     border-right: 3px solid #8b8f74;
     transform: rotate(45deg);
@@ -139,29 +133,29 @@ li::marker {
 
 /* A B O U T : added padding to about side text to see if it affected num scroll. need to check scroll for num too tbh*/
 .about {
-    height: 83vh;
-    width: 100vw;
-    background-size: 3rem 3rem;
-    /* background-color: #EFF4F8; */
-    background-color: white;
-    background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
+    height: 85%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    background-size: 3rem 3rem;
+    background-color: white;
+    background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
 }
 
 .solid-side-nav {
     background-color: whitesmoke;
-    /* height: 64.7rem; */
-    width: 12vw;
+    width: 11%;
+    height: 100%;
     position: relative;
 }
 
-.about-navname>ul {
+.navname>ul {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
 }
 
-.sidenav-name {
+.sidenav-name,
+.sidenav-name2 {
     font-size: 3.3rem;
     letter-spacing: 0.3rem;
     transform: rotate(270deg);
@@ -173,7 +167,8 @@ li::marker {
     /* background-color: pink; */
 }
 
-.sidenav-num {
+.sidenav-num,
+.sidenav-num2 {
     margin-left: 4.9rem;
     margin-top: -42rem;
     font-size: 3.6rem;
@@ -198,16 +193,20 @@ li::marker {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    height: 58vh;
-    width: 69vw;
+    /* height: 58vh;
+    width: 69vw; */
+    width: 68%;
+    height: 68%;
     margin-left: 12.8rem;
     margin-top: 9rem;
     border-radius: 1.4%;
 }
 
 .about-R {
+    display: flex;
+    flex-direction: column;
     margin-left: 9.7rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .about-R h2 {
@@ -251,219 +250,92 @@ li::marker {
 
 /* P R O J E C T S */
 .projects {
-    height: 50vh;
-    width: 100vw;
-    background-color: #E9E4E4;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
 }
 
-.projects-sidenav {
-    background-color: whitesmoke;
-    height: 100%;
-    width: 12vw;
-    position: relative;
-    border-top: 2px solid green;
+.project-showcase {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.p-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.project-showcase div {
+    height: 45rem;
+    width: 30rem;
+    background-color: #93ac9d;
+}
+
+.project-showcase h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.project-showcase span {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+}
+
+/* C O N T A C T */
+.contact {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(147, 172, 157, 0.75);
+    background-size: 3rem 3rem;
+    background-color: white;
+    background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
+}
+
+.contact-text {
+    display: flex;
+    width: 55%;
+    height: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(147, 172, 157, 0.95);
+    border-radius: 2rem;
+    border: 4px solid white;
+}
+
+.contact-text h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+
+.contact-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    width: 65%;
+    margin-top: -1rem;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.2rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 /* M E D I A  Q U E R I E S */
-
-@media (min-width: 369px) and (max-width: 645px) {
-    .headerPhotoContainer {
-        background-position: 56% 54%;
-    }
-
-    nav ol {
-        height: 7rem;
-        width: 98vw;
-    }
-
-    nav ol li {
-        font-size: 1.4rem;
-        margin: 1.3rem 0.5rem 0 1.5rem;
-        padding-right: 4rem;
-        letter-spacing: 0.3rem;
-        text-align: center;
-    }
-
-    .header-text {
-        letter-spacing: 0.2rem;
-        top: 18%;
-        font-size: 2rem;
-    }
-
-    .header-myname {
-        font-size: 4.2rem;
-        background-color: rgb(255, 247, 247);
-        margin: 0 auto;
-        margin-top: -0.8rem;
-    }
-
-    .header-location {
-        width: 89%;
-    }
-
-    .scrollArrowContainer {
-        left: 44vw;
-    }
-
-    .sparkle {
-        position: absolute;
-        top: -17rem;
-        left: -17rem;
-        transform: rotate(60deg) scale(0.6);
-    }
-}
-
-@media (min-width: 646px) and (max-width: 758px) {
-    nav ol li {
-        font-size: 1.8rem;
-        margin: 1.5rem 0.5rem 0 1.5rem;
-        padding-right: 4rem;
-        letter-spacing: 0.3rem;
-        color: rgb(109, 105, 105);
-        text-align: center;
-    }
-
-    .headerPhotoContainer {
-        background-position: 58% 50%;
-    }
-
-    .header-text {
-        letter-spacing: 0.2rem;
-        top: 18%;
-        font-size: 2.5rem;
-    }
-
-    .header-myname {
-        font-size: 5.2rem;
-        background-color: rgb(255, 247, 247);
-        margin: 0 auto;
-        margin-top: -0.8rem;
-    }
-
-    .header-location {
-        width: 88%;
-    }
-
-    .scrollArrowContainer {
-        left: 47vw;
-    }
-
-    .sparkle {
-        position: absolute;
-        top: -15rem;
-        left: -8rem;
-        transform: rotate(58deg) scale(0.75);
-    }
-}
-
-@media (min-width: 759px) and (max-width: 860px) {
-
-    nav ol li {
-        font-size: 2rem;
-        margin: 1rem 2rem 0 2rem;
-        padding-right: 4rem;
-        letter-spacing: 0.3rem;
-
-    }
-
-    .headerPhotoContainer {
-        margin-top: -5.5rem;
-        background-position: 50% 52%;
-        transform: scale(0.9);
-    }
-
-    .header-text {
-        font-size: 2.4rem;
-        top: 18%;
-    }
-
-    .header-myname {
-        font-size: 5.7rem;
-        margin-top: -0.2rem;
-    }
-
-    .header-location {
-        width: 65%;
-    }
-
-    .sparkle {
-        top: -14rem;
-        left: -8rem;
-        transform: rotate(50deg) scale(0.75);
-    }
-
-    .scrollArrowContainer {
-        top: 24vh;
-        left: 45vw;
-    }
-
-    .scrollArrowContainer span {
-        width: 3rem;
-        height: 3rem;
-    }
-}
-
-@media (min-width: 861px) and (max-width: 959px) {
-    header {
-        height: 100vh;
-        width: 100vw;
-        margin-top: -1rem;
-    }
-
-    nav ol {
-        height: 7rem;
-        margin-bottom: 1rem;
-    }
-
-    nav ol li {
-        font-size: 2rem;
-        margin: 2rem 2rem 0 2rem;
-        padding-right: 4rem;
-        letter-spacing: 0.3rem;
-    }
-
-    .headerPhotoContainer {
-        height: 90vh;
-        width: 98vw;
-        margin-top: -5.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        background-position: 44%;
-    }
-
-    .header-text {
-        font-size: 2.8rem;
-        letter-spacing: 0.3rem;
-        top: 22%;
-    }
-
-    .header-myname {
-        font-size: 6rem;
-        margin: 0 auto;
-        margin-top: -0.8rem;
-    }
-
-    .header-location {
-        margin: 0 auto;
-        margin-top: 2.8rem;
-        width: 65%;
-    }
-
-    .sparkle {
-        top: -8rem;
-        left: -11rem;
-        transform: rotate(28deg) scale(0.9);
-    }
-
-    .scrollArrowContainer {
-        top: 28vh;
-        left: 48vw;
-        transform: translate(-50%, -50%);
-    }
-
-    .scrollArrowContainer span {
-        width: 3rem;
-        height: 3rem;
-        transform: rotate(45deg);
-    }
-}

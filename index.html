@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>v2 mobile</title>
     <!-- external CSS link -->
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="style.css">
@@ -27,7 +27,7 @@
         <!-- fontawesome kit-->
         <script src="https://kit.fontawesome.com/c354af1bb2.js" crossorigin="anonymous"></script>
 
-    <title>v2</title>
+    
 </head>
 <body>
     <!-- H E A D E R -->
@@ -35,8 +35,8 @@
         <nav class="navbar">
             <ol>
                 <li><a href="#about-section">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ol>
         </nav>
 
@@ -45,15 +45,16 @@
                 <h3 class="header-intro">Hi, my name is</h3>
                 <h1 class="header-myname">Lillian Nguyen;</h1>
                 <h3 class="header-location">I'm a software engineer based in Houston, Texas.</h3>
+
+                <div class="scrollArrowContainer bounce">
+                    <span></span>
+                </div>
             </section>
             
             <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGQ5ODBxN2M5ZXZ0MnFzODZuaHcwZWpncjJqaGNjNmJnbzRjYndsbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/YVYcBIR7AsUfU50g5q/giphy.gif" alt="sparkle gif" class="sparkle">
     
-            <div class="scrollArrowContainer bounce">
-                <span></span>
-            </div>
+            
         </section>
-
     </header>
     
     <!-- A B O U T -->
@@ -72,27 +73,74 @@
                 <img class="selfie" src="selfie2c.jpg" alt="selfie">
             </section>
             <section class="about-R">
-                <h2>Lillian</h2>
-                <a href="www.linkedin.com/in/ldv-nguyen"><i class="fa-brands fa-linkedin-in"></i></i></a>
-               <a href="https://github.com/lillian-nguyen"> <i class="fa-brands fa-github"></i></a></i>
+                <section class="about-row1">
+                    <h2>Lillian</h2>
+                    <a href="www.linkedin.com/in/ldv-nguyen"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/lillian-nguyen"><i class="fa-brands fa-github"></i></a>
+                </section>
+             
                 <h4 class="username">savvy sprout</h4>
                 
                 <hr>
-                <p>Hi! I'm a full-stack developer with experience in html, css, and javascript. My background in healthcare has contributed to my commitment to designing user-friendly experiences while integrating accessibility and aesthetics.</p>
+                <p>Hi! I'm a frontend developer with experience in html, css, and javascript. My background in healthcare has contributed to my commitment to designing user-friendly experiences while integrating accessibility and aesthetics.</p>
                 <p> Outside of coding, I am a hiker, star baker, avid reader, and enthusiastic language learner.</p>
             </section>
         </section>
        
-
     </section>
     
     <!-- P R O J E C T S  -->
-    <section class="projects">
-        <div class="projects-sidenav solid-side-nav"></div>
+    <section class="projects-navname projects" id="projects-section">
+        <div class="projects-sidenav solid-side-nav">
+            <nav class="navname">
+                <ul>
+                    <li class="sidenav-name2">projects</li>
+                    <li class="sidenav-num2">02</li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="project-showcase">
+            <section class="p1 p-info">
+                <div></div>
+                <h2>project 1</h2>
+                <span>description</span>
+            </section>
+
+            <section class="p2 p-info">
+                <div></div>
+                <h2>project 2</h2>
+                <span>description</span>
+            </section>
+
+            <section class="p3 p-info">
+                <div></div>
+                <h2>project 1</h2>
+                <span>description</span>
+            </section>
+        </section>
+
     </section>
 
     <!-- C O N T A C T -->
+    <section class="contact" id="contact-section">
+        <div class="contact-sidenav solid-side-nav">
+            <nav class="navname">
+                <ul>
+                    <li class="sidenav-name2">contact</li>
+                    <li class="sidenav-num2">03</li>
+                </ul>
+            </nav>
+        </div>
 
+        <section class="contact-text">
+            <h3>Thanks for stopping by!</h3>
+            <p>Feel free to reach out with questions or simply say hi! I would love to discuss potential collaborations or projects. Looking forward to connecting with you! </p>
+            <a href="mailto:lil@gmail.com">
+                <button>Send a message</button>
+            </a>
+        </section>
+    </section>  
     <script src="main.js"></script>
 </body>
 </html>
