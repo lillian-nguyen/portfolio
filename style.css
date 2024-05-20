@@ -133,7 +133,7 @@ li::marker {
 
 /* A B O U T : added padding to about side text to see if it affected num scroll. need to check scroll for num too tbh*/
 .about {
-    height: 85%;
+    height: 88vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -164,7 +164,6 @@ li::marker {
     margin-top: 55rem;
     text-align: center;
     padding-left: 30rem;
-    /* background-color: pink; */
 }
 
 .sidenav-num,
@@ -193,8 +192,6 @@ li::marker {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    /* height: 58vh;
-    width: 69vw; */
     width: 68%;
     height: 68%;
     margin-left: 12.8rem;
@@ -250,7 +247,7 @@ li::marker {
 
 /* P R O J E C T S */
 .projects {
-    height: 85vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -270,9 +267,9 @@ li::marker {
     text-align: center;
 }
 
-.project-showcase div {
-    height: 45rem;
-    width: 30rem;
+.project-visual {
+    height: 40rem;
+    width: 32rem;
     background-color: #93ac9d;
 }
 
@@ -308,7 +305,6 @@ li::marker {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.5);
     background-color: rgba(147, 172, 157, 0.95);
     border-radius: 2rem;
     border: 4px solid white;
@@ -332,6 +328,7 @@ button {
     font-size: 2.2rem;
     padding: 0.8rem 1.8rem;
     border-radius: 2rem;
+    background-color: white;
 }
 
 button:hover {
@@ -339,3 +336,956 @@ button:hover {
 }
 
 /* M E D I A  Q U E R I E S */
+
+@media (max-width: 1200px) {
+    .about {
+        height: 150vh;
+        width: 100%;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.9rem;
+        margin-left: -2.5rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 2.2rem;
+        margin-top: -42rem;
+        font-size: 3rem;
+    }
+
+    .about-LR {
+        height: 78%;
+        margin-top: 6.5rem;
+    }
+
+    .about-R {
+        margin-top: -1rem;
+    }
+
+    .about-R h2 {
+        margin-top: 4rem;
+        font-size: 3.1rem;
+    }
+
+    .about-R p {
+        margin-top: 1rem;
+    }
+
+    .projects {
+        height: 142vh;
+    }
+
+    .project-showcase div {
+        height: 38rem;
+        width: 28rem;
+    }
+
+    .contact {
+        height: 110.5vh;
+        overflow-y: hidden;
+    }
+
+    .contact-text p {
+        font-size: 2.2rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1058px) {
+
+    nav ol li {
+        font-size: 1.8rem;
+    }
+
+    .headerPhotoContainer {
+        border: 7px solid #B4BBC8;
+    }
+
+    .header-text {
+        font-size: 2.5rem;
+    }
+
+    .header-myname {
+        font-size: 5.2rem;
+    }
+
+    .header-location {
+        margin-top: 2.1rem;
+    }
+
+    .sparkle {
+        top: -11rem;
+        left: -12rem;
+    }
+
+    /* about */
+
+    .about {
+        height: 140vh;
+        width: 100%;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.8rem;
+        margin-left: -3.3rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 0.6rem;
+        margin-top: -41rem;
+        font-size: 2.9rem;
+    }
+
+    .about-LR {
+        width: 76%;
+        height: 74%;
+        margin: 0 auto;
+        margin-top: 6.5rem;
+    }
+
+    .selfie {
+        height: 21rem;
+        width: 21rem;
+        padding: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about-R {
+        margin-top: -1.6rem;
+        margin-left: 6rem;
+    }
+
+    .about-R h2 {
+        margin-top: 3.5rem;
+        font-size: 2.7rem;
+    }
+
+    .about-R p+p {
+        margin-top: -0.7rem;
+    }
+
+    .fa {
+        font-size: 2.2rem;
+        padding-right: 1.6rem;
+        position: relative;
+        top: -5rem;
+        left: 12rem;
+    }
+
+    .username {
+        font-family: "Inter", sans-serif;
+        color: #93ac9d;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        margin-top: -4rem;
+    }
+
+    .about-R hr {
+        width: 82%;
+        margin-top: -1.2rem;
+    }
+
+    .about-R p {
+        margin-top: 1rem;
+        font-size: 1.8rem;
+        width: 92%;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 142vh;
+    }
+
+    .project-showcase div {
+        height: 32rem;
+        width: 22rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 2.7rem;
+    }
+
+    .project-showcase span {
+        font-size: 1.7rem;
+    }
+
+    /* contact */
+
+    .contact {
+        height: 100vh;
+    }
+
+    .contact-text {
+        width: 61%;
+        height: 65%;
+    }
+
+    .contact-text h3 {
+        font-size: 3rem;
+    }
+
+    .contact-text p {
+        font-size: 2rem;
+        width: 78%;
+    }
+
+    button {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 795px) {
+
+    nav ol li {
+        font-size: 1.7rem;
+    }
+
+    .header-text {
+        font-size: 2.1rem;
+    }
+
+    .header-myname {
+        font-size: 4.7rem;
+    }
+
+    .sparkle {
+        left: -18rem;
+        transform: scale(0.8);
+    }
+
+    /* about */
+
+    .about {
+        height: 130vh;
+        width: 100%;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.6rem;
+        margin-left: -3.5rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: -0.3rem;
+        margin-top: -40rem;
+        font-size: 2.8rem;
+    }
+
+    .about-LR {
+        width: 82%;
+        height: 69.5%;
+        margin: 0 auto;
+        margin-top: 6.5rem;
+    }
+
+    .selfie {
+        height: 16rem;
+        width: 16rem;
+        padding: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about-R h2 {
+        margin-top: 3.5rem;
+        font-size: 2.5rem;
+    }
+
+    .about-R p+p {
+        margin-top: -0.7rem;
+    }
+
+    .fa {
+        font-size: 2.1rem;
+        padding-right: 1.3rem;
+    }
+
+    .username {
+        font-size: 1.6rem;
+    }
+
+    .about-R hr {
+        width: 86%;
+        margin-top: -1.2rem;
+    }
+
+    .about-R p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        width: 92%;
+    }
+
+    .about-R {
+        margin-left: 6.5rem;
+        margin-top: -0.7rem;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 100vh;
+    }
+
+    .project-showcase div {
+        height: 25rem;
+        width: 17rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 2.4rem;
+    }
+
+    .project-showcase span {
+        font-size: 1.7rem;
+    }
+
+    /* contact */
+
+    .contact {
+        height: 94vh;
+    }
+
+    .contact-text {
+        width: 66%;
+        height: 69%;
+    }
+
+    .contact-text h3 {
+        font-size: 3rem;
+    }
+
+    .contact-text p {
+        font-size: 2rem;
+        width: 78%;
+    }
+
+    button {
+        font-size: 1.7rem;
+    }
+}
+
+/* may have to work on the projects section more*/
+@media (max-width: 664px) {
+    nav ol li {
+        font-size: 1.7rem;
+    }
+
+    .header-text {
+        font-size: 2rem;
+    }
+
+    .header-myname {
+        font-size: 4.7rem;
+    }
+
+    .sparkle {
+        left: -16rem;
+        top: -19rem;
+        transform: scale(0.5) rotate(55deg);
+    }
+
+    /* about */
+
+    .about {
+        height: 129vh;
+        width: 100%;
+    }
+
+    .about-navname,
+    .navname {
+        width: 100%;
+    }
+
+    .solid-side-nav {
+        display: flex;
+        width: 100%;
+        height: 15%;
+        position: absolute;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.6rem;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 1rem;
+        transform: rotate(0deg);
+        width: 100%;
+        padding: 0;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 30%;
+        margin-top: -4rem;
+        font-size: 2.7rem;
+        position: relative;
+    }
+
+    .about-LR {
+        width: 90%;
+        height: 64%;
+        margin: 0 auto;
+        margin-top: 11.5rem;
+    }
+
+    .selfie {
+        height: 14.5rem;
+        width: 14.5rem;
+        padding: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about-R h2 {
+        margin-top: 2.4rem;
+        font-size: 2.5rem;
+    }
+
+    .about-R p+p {
+        margin-top: -0.7rem;
+    }
+
+    .fa {
+        font-size: 2.1rem;
+        padding-right: 1.3rem;
+    }
+
+    .username {
+        font-size: 1.6rem;
+    }
+
+    .about-R hr {
+        width: 86%;
+        margin-top: -1.2rem;
+    }
+
+    .about-R p {
+        margin-top: 0.6rem;
+        font-size: 1.6rem;
+        width: 90%;
+        line-height: 2rem;
+    }
+
+    .about-R {
+        margin-left: 6rem;
+        margin-top: -0.7rem;
+    }
+
+    /* projects: one at a time w/ descriptions on R side */
+
+    .projects {
+        height: 335vh;
+    }
+
+    .project-showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+    .p-info {
+        flex-direction: row;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .project-visual {
+        margin: 0 auto;
+        flex: 0.55;
+    }
+
+    .project-text {
+        background-color: pink;
+        margin: 0 auto;
+        flex: 0.4;
+        margin-left: 1rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 2rem;
+    }
+
+    .project-showcase span {
+        font-size: 1.4rem;
+    }
+
+    .projects-sidenav {
+        margin-top: -135rem;
+    }
+
+    .sidenav-name2 {
+        margin-left: 2rem;
+    }
+
+    .sidenav-num2 {
+        margin-left: 17rem;
+        margin-top: -3.7rem;
+    }
+
+    /* contact */
+
+    .contact {
+        height: 94vh;
+    }
+
+    .contact-text {
+        margin-top: 5.6rem;
+    }
+
+    .contact-text {
+        width: 66%;
+        height: 69%;
+    }
+
+    .contact-text h3 {
+        font-size: 2.8rem;
+        margin-top: -1.4rem;
+    }
+
+    .contact-text p {
+        font-size: 1.8rem;
+        width: 82%;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+
+    .contact-sidenav {
+        margin-top: -32.8rem;
+    }
+
+    .sidenav-num3 {
+        margin-left: 17rem;
+    }
+
+    .sidenav-name3 {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 560px) {
+    nav ol li {
+        font-size: 1.7rem;
+    }
+
+    .header-text {
+        font-size: 1.9rem;
+    }
+
+    .header-myname {
+        font-size: 4.5rem;
+    }
+
+    .sparkle {
+        left: -16rem;
+        top: -19rem;
+        transform: scale(0.5) rotate(55deg);
+    }
+
+    /* about */
+
+    .about {
+        height: 129vh;
+        width: 100%;
+    }
+
+    .about-navname,
+    .navname {
+        width: 100%;
+    }
+
+    .solid-side-nav {
+        display: flex;
+        width: 100%;
+        height: 15%;
+        position: absolute;
+    }
+
+    .sidenav-name,
+    .sidenav-name2,
+    .sidenav-name3 {
+        font-size: 2.6rem;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 1rem;
+        transform: rotate(0deg);
+        width: 100%;
+        padding: 0;
+    }
+
+    .sidenav-num,
+    .sidenav-num2,
+    .sidenav-num3 {
+        margin-left: 30%;
+        margin-top: -4rem;
+        font-size: 2.7rem;
+        position: relative;
+    }
+
+    .sidenav-num2,
+    .sidenav-num3 {
+        margin-left: 20%;
+    }
+
+    .about-LR {
+        width: 95%;
+        height: 68%;
+        margin: 0 auto;
+        margin-top: 11.5rem;
+    }
+
+    .selfie {
+        height: 14.5rem;
+        width: 14.5rem;
+        padding: 1.2rem;
+        margin-left: -2rem;
+    }
+
+    .about-R h2 {
+        margin-top: 2.8rem;
+        font-size: 2.3rem;
+    }
+
+    .about-R p+p {
+        margin-top: -0.7rem;
+    }
+
+    .fa {
+        font-size: 2.1rem;
+        padding-right: 1.3rem;
+        margin-top: 0.5rem;
+    }
+
+    .username {
+        font-size: 1.6rem;
+    }
+
+    .about-R hr {
+        width: 86%;
+        margin-top: -1.2rem;
+    }
+
+    .about-R p {
+        margin-top: 0.6rem;
+        font-size: 1.6rem;
+        width: 98%;
+        line-height: 2rem;
+    }
+
+    .about-R {
+        margin-left: 6rem;
+        margin-top: -0.7rem;
+    }
+
+    /* projects: one at a time w/ descriptions on R side */
+
+    .projects {
+        height: 335vh;
+    }
+
+    .project-showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-info {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .project-visual {
+        width: 55vw;
+        height: 55vh;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .project-text {
+        background-color: pink;
+        flex: 1;
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .project-showcase h2 {
+        font-size: 2rem;
+    }
+
+    .project-showcase span {
+        font-size: 1.4rem;
+    }
+
+    .projects-sidenav {
+        margin-top: -135rem;
+    }
+
+    /* contact */
+
+    .contact {
+        height: 94vh;
+    }
+
+    .contact-text {
+        margin-top: 5.6rem;
+        width: 100%;
+    }
+
+    .contact-text {
+        width: 69%;
+        height: 69%;
+    }
+
+    .contact-text h3 {
+        font-size: 2.6rem;
+        margin-top: 1.8rem;
+    }
+
+    .contact-text p {
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+        width: 80%;
+    }
+
+    button {
+        font-size: 1.5rem;
+        margin-top: 0.4rem;
+    }
+
+    .contact-sidenav {
+        margin-top: -32.8rem;
+    }
+}
+
+/* get selfie in column instead of row*/
+@media (max-width: 490px) {
+    nav ol li {
+        font-size: 1.7rem;
+        margin-right: -1.4rem;
+    }
+
+    .header-text {
+        font-size: 1.9rem;
+    }
+
+    .header-myname {
+        font-size: 4.2rem;
+    }
+
+    .sparkle {
+        left: -16rem;
+        top: -19rem;
+        transform: scale(0.5) rotate(55deg);
+    }
+
+    .scrollArrowContainer span {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    /* about */
+
+    .about {
+        height: 149vh;
+        width: 100%;
+        background-size: 2.4rem 2.4rem;
+        background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
+    }
+
+    .about-navname,
+    .navname {
+        width: 100%;
+    }
+
+    .solid-side-nav {
+        display: flex;
+        width: 100%;
+        height: 15%;
+        position: absolute;
+    }
+
+    .sidenav-name,
+    .sidenav-name2,
+    .sidenav-name3 {
+        font-size: 2.6rem;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 1rem;
+        transform: rotate(0deg);
+        width: 100%;
+        padding: 0;
+    }
+
+    .sidenav-num,
+    .sidenav-num2,
+    .sidenav-num3 {
+        margin-left: 30%;
+        margin-top: -4rem;
+        font-size: 2.7rem;
+        position: relative;
+    }
+
+    .sidenav-num2,
+    .sidenav-num3 {
+        margin-left: 20%;
+    }
+
+    .about-LR {
+        width: 90%;
+        height: 78%;
+        margin: 0 auto;
+        margin-top: 9rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .selfie {
+        display: flex;
+        justify-self: center;
+        height: 14rem;
+        width: 14rem;
+        padding: 1rem;
+        margin-left: 11rem;
+        margin-top: -6rem;
+    }
+
+    .about-R h2 {
+        margin-top: 9.8rem;
+        font-size: 2.3rem;
+        margin-left: 12rem;
+    }
+
+    .about-R p+p {
+        margin-top: -0.7rem;
+    }
+
+    .fa {
+        position: relative;
+        font-size: 2.1rem;
+        padding-right: 1.3rem;
+        left: -2rem;
+        top: -21rem;
+        margin-left: -0.2rem;
+        /* margin-top: -14.5rem;
+        margin-left: -8rem; */
+    }
+
+    .username {
+        font-size: 1.6rem;
+        margin-left: 11rem;
+    }
+
+    .about-R hr {
+        width: 86%;
+        margin-top: -1.2rem;
+    }
+
+    .about-R p {
+        margin-top: 0.6rem;
+        margin-left: -1rem;
+        font-size: 1.6rem;
+        text-align: center;
+        width: 94%;
+        line-height: 2rem;
+    }
+
+    .about-R {
+        margin-left: 6rem;
+        margin-top: -0.7rem;
+    }
+
+    /* projects: one at a time w/ descriptions on R side */
+
+    .projects {
+        height: 335vh;
+    }
+
+    .project-showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .p-info {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .project-visual {
+        width: 55vw;
+        height: 55vh;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .project-text {
+        background-color: pink;
+        flex: 1;
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .project-showcase h2 {
+        font-size: 2rem;
+    }
+
+    .project-showcase span {
+        font-size: 1.4rem;
+    }
+
+    .projects-sidenav {
+        margin-top: -135rem;
+    }
+
+    /* contact */
+
+    .contact {
+        height: 94vh;
+        background-size: 2.4rem 2.4rem;
+        background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
+    }
+
+    .contact-text {
+        width: 88%;
+        height: 72%;
+        margin-left: 3.5rem;
+    }
+
+    .contact-text h3 {
+        font-size: 2.6rem;
+        margin-top: 1.8rem;
+    }
+
+    .contact-text p {
+        font-size: 1.8rem;
+        margin-top: -1rem;
+        width: 80%;
+    }
+
+    button {
+        font-size: 1.5rem;
+        margin-top: 0.4rem;
+    }
+
+    .contact-sidenav {
+        margin-top: -32.8rem;
+    }
+}
