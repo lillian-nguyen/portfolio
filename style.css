@@ -30,7 +30,7 @@ nav ol {
 nav ol li {
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
-    margin: 2rem 2rem 0 2rem;
+    margin: 2.6rem 2rem 0 2rem;
     padding-right: 4rem;
     letter-spacing: 0.3rem;
 }
@@ -178,14 +178,14 @@ li::marker {
 
 .selfie {
     position: relative;
-    top: 8.5rem;
-    left: 3.5rem;
+    top: 9.5rem;
+    left: 4.5rem;
     border-radius: 50%;
-    height: 24rem;
-    width: 24rem;
+    height: 25rem;
+    width: 22.5rem;
     border: 3px solid #E9E4E4;
     background-color: white;
-    padding: 1.2rem;
+    padding: 1.4rem;
 }
 
 .about-LR {
