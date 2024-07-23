@@ -133,7 +133,7 @@ li::marker {
 
 /* A B O U T : added padding to about side text to see if it affected num scroll. need to check scroll for num too tbh*/
 .about {
-    height: 88vh;
+    height: 98vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -161,7 +161,7 @@ li::marker {
     transform: rotate(270deg);
     transform-origin: 0 0;
     margin-left: -1rem;
-    margin-top: 55rem;
+    margin-top: 72rem;
     text-align: center;
     padding-left: 30rem;
 }
@@ -178,11 +178,11 @@ li::marker {
 
 .selfie {
     position: relative;
-    top: 9.5rem;
+    top: 16rem;
     left: 4.5rem;
     border-radius: 50%;
-    height: 25rem;
-    width: 22.5rem;
+    height: 28rem;
+    width: 26rem;
     border: 3px solid #E9E4E4;
     background-color: white;
     padding: 1.4rem;
@@ -192,9 +192,9 @@ li::marker {
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
-    width: 68%;
-    height: 68%;
-    margin-left: 12.8rem;
+    width: 78.5%;
+    height: 78%;
+    margin-left: 8rem;
     margin-top: 9rem;
     border-radius: 1.4%;
 }
@@ -208,24 +208,24 @@ li::marker {
 
 .about-R h2 {
     font-family: "Poppins", sans-serif;
-    margin-top: -0.4rem;
-    font-size: 3.5rem;
+    margin-top: 2.2rem;
+    font-size: 4.2rem;
     letter-spacing: 0.4rem;
 }
 
 .fa {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #B4BBC8;
     padding-right: 1.6rem;
     position: relative;
-    top: -6rem;
-    left: 14rem;
+    top: -7.5rem;
+    left: 16.5rem;
 }
 
 .username {
     font-family: "Inter", sans-serif;
     color: #93ac9d;
-    font-size: 2rem;
+    font-size: 2.4rem;
     letter-spacing: 0.1rem;
     margin-top: -4rem;
 }
@@ -237,10 +237,10 @@ li::marker {
 }
 
 .about-R p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    line-height: 2.5rem;
+    line-height: 3rem;
     width: 88%;
     margin-top: 3rem;
 }
