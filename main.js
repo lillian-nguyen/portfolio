@@ -1,3 +1,31 @@
+// N A V B A R
+
+//keep track of previous scroll position
+let prevScrollPos = window.scrollY;
+
+window.addEventListener('scroll', function () {
+    //current scroll pos
+    const currentScrollPos = window.scrollY;
+    const navbar = this.document.querySelector('.navbar')
+
+    if (prevScrollPos > currentScrollPos) {
+        //user has scrolled up
+        navbar.classList.remove('remove-border');
+        navbar.classList.add('return-border');
+    } else {
+        //user scrolled down
+        navbar.classList.remove('return-border');
+        navbar.classList.add('remove-border');
+    }
+
+    //update previous scroll position
+    prevScrollPos = currentScrollPos
+
+});
+
+
+// A B O U T   S E C T I O N
+
 const socials = document.querySelectorAll('.fa')
 const linkedin = document.querySelector('.fa-linkedin-in')
 const github = document.querySelector('.fa-github')
@@ -31,6 +59,7 @@ function hoverSocials(event) {
     }
 }
 
+//changes icon to default color and sets default text of savvy sprout
 function revertSocials(event) {
     const icon = event.target;
     socials.forEach(social => {
