@@ -398,37 +398,8 @@ button:hover {
 
 /* M E D I A  Q U E R I E S */
 
-/* towards larger desktop */
-@media (min-width: 1444px) and (max-width: 1488px) {
-    .project-showcase {
-        gap: 2rem;
-    }
-}
-
-@media (min-width: 1489px) and (max-width: 1511px) {
-    .project-showcase {
-        gap: 3rem;
-    }
-}
-
-@media (min-width: 1512px) and (max-width: 1556px) {
-    .project-showcase {
-        gap: 5rem;
-    }
-}
-
-/* currently editing!!  */
-@media (min-width: 1557px) {
-    .project-showcase {
-        gap: 7rem;
-    }
-
-    .p3 {
-        margin-top: -4rem;
-    }
-}
-
-/* @media (max-width: 1200px) still in progress{
+/* towards mobile */
+/* @media (max-width: 1200px) {
     .about {
         height: 150vh;
         width: 100%;
@@ -487,3 +458,78 @@ button:hover {
         font-size: 2rem;
     }
 } */
+
+/* towards larger desktop */
+@media (min-width: 1444px) and (max-width: 1488px) {
+    .project-showcase {
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1489px) and (max-width: 1511px) {
+    .project-showcase {
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 1512px) and (max-width: 1556px) {
+    .project-showcase {
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 1557px) and (max-width: 1601px) {
+    .project-showcase {
+        gap: 7rem;
+    }
+
+    .p3 {
+        margin-top: -4rem;
+    }
+}
+
+@media (min-width: 1602px) and (max-width: 1646px) {
+    .project-showcase {
+        gap: 9rem;
+    }
+
+    .p3 {
+        margin-top: -4rem;
+    }
+}
+
+@media (min-width: 1647px) and (max-width: 1758px) {
+    .project-showcase {
+        column-gap: 8rem;
+    }
+
+    .project-container {
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width: 1759px) and (max-width: 1825px) {
+    .project-showcase {
+        column-gap: 11rem;
+    }
+
+    .project-container {
+        padding-left: 4rem;
+    }
+}
+
+@media (min-width: 1826px) and (max-width: 1893px) {
+    .project-showcase {
+        column-gap: 14rem;
+    }
+
+    .project-container {
+        padding-left: 4rem;
+    }
+}
+
+/* in progress: media queries towards mobile  
+- ignore max-width 1200px for now. start at 1443px and decrease until code breaks
+
+-add links for projects
+*/
