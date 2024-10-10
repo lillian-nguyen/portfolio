@@ -73,6 +73,7 @@ li::marker {
     align-items: center;
     margin-top: -2%;
     background-image: url('wildflowers.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 33%;
     transform: scale(0.9);
@@ -303,8 +304,6 @@ li::marker {
 .project-showcase {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 0 auto; */
-    justify-content: center;
     justify-content: space-around;
 }
 
@@ -528,7 +527,139 @@ button:hover {
     }
 }
 
-/* in progress: media queries towards mobile  
+@media (min-width: 1894px) and (max-width: 2168px) {
+
+    /* header */
+
+    nav ol li {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 3.8rem;
+        text-shadow: 1px 1px 2px rgb(187, 201, 187);
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 6.7rem;
+        padding: 0 1rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 13rem;
+    }
+
+    /* about section */
+
+    /* side bar*/
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+        margin-left: -0.7rem;
+        margin-top: 86rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 5.5rem;
+        margin-top: -47rem;
+        font-size: 5rem;
+        top: 10px;
+    }
+
+    .selfie {
+        height: 32rem;
+        width: 31rem;
+    }
+
+    .active-button {
+        height: 8.5rem;
+        width: 8.5rem;
+        top: 8rem;
+        left: 27rem;
+    }
+
+    .inner-active-button {
+        height: 5.5rem;
+        width: 5.5rem;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    .about-R h2 {
+        font-size: 4.8rem;
+        margin-top: 1rem;
+    }
+
+    .fa {
+        font-size: 3.8rem;
+        top: -8.5rem;
+        left: 19.5rem;
+    }
+
+    .username {
+        font-size: 2.8rem;
+        margin-top: -5.8rem;
+    }
+
+    .about-R p {
+        font-size: 2.6rem;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    /* projects */
+
+    .project-showcase {
+        column-gap: 17rem;
+    }
+
+    .project-container {
+        padding-left: 4rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 3.5rem;
+    }
+
+    .project-container p {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .project-container button {
+        height: 4.5rem;
+        width: 9.5rem;
+        font-size: 2.4rem;
+        padding: 0;
+    }
+
+    /* contact */
+    .contact-text h3 {
+        font-size: 5.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-text p {
+        font-size: 3.5rem;
+        width: 85%;
+        margin-top: -1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2.4rem;
+    }
+}
+
+@media (min-width: 2169px) {}
+
+/* in progress: media queries towards desktop
 - ignore max-width 1200px for now. start at 1443px and decrease until code breaks
 
 -add links for projects
