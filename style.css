@@ -458,6 +458,48 @@ button:hover {
     }
 } */
 
+@media (min-width: 1254px) and (max-width: 1313px) {
+
+    /* a b o u t */
+    .selfie {
+        top: 22rem;
+        left: 4.2rem;
+        height: 24.5rem;
+        width: 23rem;
+        padding: 1.4rem;
+    }
+
+    .active-button {
+        height: 7rem;
+        width: 7rem;
+        top: 13rem;
+        left: 22rem;
+    }
+
+    .inner-active-button {
+        height: 4.8rem;
+        width: 4.8rem;
+        top: 0.8rem;
+        left: 1rem;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        letter-spacing: 0.4rem;
+        margin-left: -2.5rem;
+        /* margin-top: 72rem; */
+        /* padding-left: 30rem; */
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 2.5rem;
+        margin-top: -42rem;
+        font-size: 3.3rem;
+        top: 10px;
+    }
+}
+
 /* towards larger desktop */
 @media (min-width: 1444px) and (max-width: 1488px) {
     .project-showcase {
@@ -657,9 +699,556 @@ button:hover {
     }
 }
 
-@media (min-width: 2169px) {}
+@media (min-width: 2169px) and (max-width: 2328px) {
+    /* header */
 
-/* in progress: media queries towards desktop
+    nav ol li {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 3.8rem;
+        text-shadow: 1px 1px 2px rgb(187, 201, 187);
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 6.7rem;
+        padding: 0 1rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 13rem;
+    }
+
+    /* about section */
+
+    /* side bar*/
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+        margin-left: -0.7rem;
+        margin-top: 86rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 5.5rem;
+        margin-top: -47rem;
+        font-size: 5rem;
+        top: 10px;
+    }
+
+    .selfie {
+        height: 32rem;
+        width: 31rem;
+    }
+
+    .active-button {
+        height: 8.5rem;
+        width: 8.5rem;
+        top: 8rem;
+        left: 27rem;
+    }
+
+    .inner-active-button {
+        height: 5.5rem;
+        width: 5.5rem;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    .about-R h2 {
+        font-size: 4.8rem;
+        margin-top: 1rem;
+    }
+
+    .fa {
+        font-size: 3.8rem;
+        top: -8.5rem;
+        left: 19.5rem;
+    }
+
+    .username {
+        font-size: 2.8rem;
+        margin-top: -5.8rem;
+    }
+
+    .about-R p {
+        font-size: 2.6rem;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 129vh;
+    }
+
+    .project-showcase {
+        column-gap: 14rem;
+    }
+
+    .project-container {
+        padding-left: 4rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 3.5rem;
+    }
+
+    .project-visual {
+        height: 35vh;
+    }
+
+    .project-container p {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    .project-container button {
+        height: 4.5rem;
+        width: 9.5rem;
+        font-size: 2.4rem;
+        padding: 0;
+    }
+
+    /* contact */
+    .contact-text h3 {
+        font-size: 5.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-text p {
+        font-size: 3.5rem;
+        width: 85%;
+        margin-top: -1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2.4rem;
+    }
+}
+
+@media (min-width: 2329px) and (max-width: 2396px) {
+    /* header */
+
+    nav ol li {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 3.8rem;
+        text-shadow: 1px 1px 2px rgb(187, 201, 187);
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 6.7rem;
+        padding: 0 1rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 13rem;
+    }
+
+    /* about section */
+
+    /* side bar*/
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+        margin-left: -0.7rem;
+        margin-top: 86rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 7rem;
+        margin-top: -47rem;
+        font-size: 5rem;
+        top: 10px;
+    }
+
+    .selfie {
+        height: 32rem;
+        width: 31rem;
+    }
+
+    .active-button {
+        height: 8.5rem;
+        width: 8.5rem;
+        top: 8rem;
+        left: 27rem;
+    }
+
+    .inner-active-button {
+        height: 5.5rem;
+        width: 5.5rem;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    .about-R h2 {
+        font-size: 4.8rem;
+        margin-top: 1rem;
+    }
+
+    .fa {
+        font-size: 3.8rem;
+        top: -8.5rem;
+        left: 19.5rem;
+    }
+
+    .username {
+        font-size: 2.8rem;
+        margin-top: -5.8rem;
+    }
+
+    .about-R p {
+        font-size: 2.6rem;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 129vh;
+    }
+
+    .project-showcase {
+        column-gap: 14rem;
+    }
+
+    .project-container {
+        padding-left: 6rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 3.8rem;
+    }
+
+    .project-visual {
+        height: 35vh;
+    }
+
+    .project-container p {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .project-container button {
+        height: 4.5rem;
+        width: 9.5rem;
+        font-size: 2.6rem;
+        padding: 0;
+    }
+
+    /* contact */
+    .contact-text h3 {
+        font-size: 5.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-text p {
+        font-size: 3.5rem;
+        width: 85%;
+        margin-top: -1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2.4rem;
+    }
+}
+
+@media (min-width: 2397px) and (max-width: 2486px) {
+    /* header */
+
+    nav ol li {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 3.8rem;
+        text-shadow: 1px 1px 2px rgb(187, 201, 187);
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 6.7rem;
+        padding: 0 1rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 13rem;
+    }
+
+    /* about section */
+
+    /* side bar*/
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+        margin-left: -0.7rem;
+        margin-top: 86rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 7rem;
+        margin-top: -47rem;
+        font-size: 5rem;
+        top: 10px;
+    }
+
+    .selfie {
+        height: 32rem;
+        width: 31rem;
+    }
+
+    .active-button {
+        height: 8.5rem;
+        width: 8.5rem;
+        top: 8rem;
+        left: 27rem;
+    }
+
+    .inner-active-button {
+        height: 5.5rem;
+        width: 5.5rem;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    .about-R h2 {
+        font-size: 4.8rem;
+        margin-top: 1rem;
+    }
+
+    .fa {
+        font-size: 3.8rem;
+        top: -8.5rem;
+        left: 19.5rem;
+    }
+
+    .username {
+        font-size: 2.8rem;
+        margin-top: -5.8rem;
+    }
+
+    .about-R p {
+        font-size: 2.6rem;
+        line-height: 3.5rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 129vh;
+    }
+
+    .project-showcase {
+        column-gap: 18rem;
+    }
+
+    .project-container {
+        padding-left: 6rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 3.8rem;
+    }
+
+    .project-visual {
+        height: 35vh;
+    }
+
+    .project-container p {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .project-container button {
+        height: 4.5rem;
+        width: 9.5rem;
+        font-size: 2.6rem;
+        padding: 0;
+    }
+
+    /* contact */
+    .contact-text h3 {
+        font-size: 5.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-text p {
+        font-size: 3.5rem;
+        width: 85%;
+        margin-top: -1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2.4rem;
+    }
+}
+
+@media (min-width: 2487px) {
+    /* header */
+
+    nav ol li {
+        font-size: 2.5rem;
+    }
+
+    .header-text {
+        font-size: 3.8rem;
+        text-shadow: 1px 1px 2px rgb(187, 201, 187);
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 6.7rem;
+        padding: 0 1rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 13rem;
+    }
+
+    /* about section */
+
+    /* side bar*/
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+        margin-left: -0.7rem;
+        margin-top: 86rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 8rem;
+        margin-top: -47rem;
+        font-size: 5rem;
+        top: 10px;
+    }
+
+    .selfie {
+        height: 32rem;
+        width: 31rem;
+    }
+
+    .active-button {
+        height: 8.5rem;
+        width: 8.5rem;
+        top: 8rem;
+        left: 27rem;
+    }
+
+    .inner-active-button {
+        height: 5.5rem;
+        width: 5.5rem;
+        top: 1.2rem;
+        left: 1.5rem;
+    }
+
+    .about-R h2 {
+        font-size: 5.2rem;
+        margin-top: 1rem;
+    }
+
+    .fa {
+        font-size: 4.7rem;
+        top: -9.6rem;
+        left: 19.5rem;
+    }
+
+    .username {
+        font-size: 3.3rem;
+        margin-top: -5.8rem;
+    }
+
+    .about-R p {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 129vh;
+    }
+
+    .project-showcase {
+        column-gap: 21rem;
+    }
+
+    .project-container {
+        padding-left: 9rem;
+    }
+
+    .project-showcase h2 {
+        font-size: 3.8rem;
+    }
+
+    .project-visual {
+        height: 35vh;
+    }
+
+    .project-container p {
+        font-size: 2.8rem;
+        line-height: 2.8rem;
+    }
+
+    .project-container button {
+        height: 4.5rem;
+        width: 9.5rem;
+        font-size: 2.6rem;
+        padding: 0;
+    }
+
+    /* contact */
+    .contact-text h3 {
+        font-size: 5.5rem;
+        margin-top: -1rem;
+    }
+
+    .contact-text p {
+        font-size: 3.5rem;
+        width: 85%;
+        margin-top: -1.5rem;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        border-radius: 2.4rem;
+    }
+}
+
+
+/* in progress: media queries towards mobile
 - ignore max-width 1200px for now. start at 1443px and decrease until code breaks
 
 -add links for projects
