@@ -505,6 +505,226 @@ button:hover {
     }
 }
 
+@media (min-width: 994px) and (max-width: 1092px) {
+
+    /* h e a d e r */
+    .header-intro {
+        margin-top: 8.5rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 7rem;
+    }
+
+    .scrollArrowContainer span {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    /* s i d e  n a v*/
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 3.1rem;
+        letter-spacing: 0.7rem;
+        margin-left: -3.2rem;
+        margin-top: 72rem;
+        padding-left: 22rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 2rem;
+        margin-top: -34rem;
+        font-size: 3.1rem;
+        top: 10px;
+    }
+
+    /* a b o u t */
+    .selfie {
+        top: 22rem;
+        left: 4.2rem;
+        height: 23.5rem;
+        width: 22rem;
+        padding: 1.4rem;
+    }
+
+    .active-button {
+        height: 5rem;
+        width: 5rem;
+        top: 14.5rem;
+        left: 22rem;
+    }
+
+    .inner-active-button {
+        height: 3.3rem;
+        width: 3.3rem;
+        top: 0.8rem;
+        left: 0.8rem;
+    }
+
+    .about-R p {
+        font-size: 1.8rem;
+        width: 91%;
+        margin-top: 1.3rem;
+    }
+
+    .about-LR {
+        margin-left: 6.5rem;
+        margin-top: 12rem;
+    }
+
+    /* p r o j e c t s */
+    .project-visual {
+        height: 25vh;
+    }
+
+    /* c o n t a c t */
+    .contact {
+        height: 85vh;
+    }
+
+    .contact-text {
+        width: 73%;
+        height: 55%;
+    }
+}
+
+/* MAKE SIDEBAR NAME + NUM ONE LINE FOR 844 - 993PX*/
+
+@media (min-width: 844px) and (max-width: 993px) {
+
+    /* h e a d e r */
+    .header-intro {
+        margin-top: 8.5rem;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 7rem;
+    }
+
+    .scrollArrowContainer span {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    /* s i d e  n a v*/
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 3.1rem;
+        letter-spacing: 0.7rem;
+        margin-left: -3.2rem;
+        margin-top: 72rem;
+        padding-left: 22rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 2rem;
+        margin-top: -34rem;
+        font-size: 3.1rem;
+        top: 10px;
+    }
+
+    /* a b o u t */
+
+    .about {
+        height: 105vh;
+    }
+
+    .selfie {
+        top: 4%;
+        left: 32%;
+        height: 21.5rem;
+        width: 20rem;
+        padding: 1.4rem;
+    }
+
+    .active-button {
+        height: 5.4rem;
+        width: 5.4rem;
+        top: -20%;
+        left: 52%;
+    }
+
+    .inner-active-button {
+        height: 3.6rem;
+        width: 3.6rem;
+        top: 0.8rem;
+        left: 0.8rem;
+    }
+
+    .about-R p {
+        font-size: 1.8rem;
+        width: 93%;
+        margin-top: 1.3rem;
+        margin-left: -1rem;
+    }
+
+    .about-LR {
+        flex-direction: column;
+        margin-left: 5.5rem;
+        margin-top: 8.5rem;
+        /* width: 78.5%; */
+        height: 86%;
+    }
+
+    .about-R h2 {
+        margin-top: -4.8rem;
+        margin-left: -22rem;
+        font-size: 4.2rem;
+        text-align: center;
+    }
+
+    .about-R hr {
+        width: 97%;
+        margin-left: -3.3rem;
+        margin-top: -1.3rem;
+        border: 2.2px solid #E9E4E4;
+    }
+
+    .fa {
+        font-size: 3rem;
+        padding-right: 1.6rem;
+        top: -7.5rem;
+        left: 31.8rem;
+    }
+
+    .username {
+        font-size: 2.4rem;
+        letter-spacing: 0.1rem;
+        margin-top: -5.8rem;
+        margin-left: -13rem;
+        text-align: center;
+    }
+
+    /* p r o j e c t s */
+    .projects {
+        height: 145vh;
+    }
+
+    .project-showcase {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+    }
+
+    .project-visual {
+        height: 25vh;
+    }
+
+    /* c o n t a c t */
+    .contact {
+        height: 77vh;
+    }
+
+    .contact-text {
+        width: 73%;
+        height: 55%;
+    }
+}
+
 /* towards larger desktop */
 @media (min-width: 1444px) and (max-width: 1488px) {
     .project-showcase {
@@ -1253,8 +1473,7 @@ button:hover {
 }
 
 
-/* in progress: media queries towards mobile
-- ignore max-width 1200px for now. start at 1443px and decrease until code breaks
+/* in progress: media queries towards mobile ( for (min-width: 844px) and (max-width: 993px) edit sidebar name & num to be on same line
 
 -add links for projects
 */
