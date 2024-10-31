@@ -1148,6 +1148,364 @@ button:hover {
     }
 }
 
+@media (min-width: 636px) and (max-width: 718px) {
+
+    /* header */
+    .sparkle {
+        top: -8.5rem;
+        left: -16.5rem;
+        transform: rotate(48deg);
+        scale: 0.9;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 7rem;
+    }
+
+    .header-text {
+        font-size: 2.4rem;
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 5rem;
+    }
+
+    /* side nav */
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.5rem;
+        margin-left: -2.2rem;
+        margin-top: 65rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: -4.7rem;
+        margin-top: -33rem;
+        font-size: 2.8rem;
+        transform: rotate(270deg);
+    }
+
+    /* about */
+    .about {
+        height: 128vh;
+    }
+
+    .selfie {
+        top: 3.5%;
+        left: 31%;
+        height: 16.5rem;
+        width: 16rem;
+        padding: 0.9rem;
+    }
+
+    .active-button {
+        height: 5rem;
+        width: 5.5rem;
+        top: -27%;
+        left: 53%;
+    }
+
+    .inner-active-button {
+        height: 3.6rem;
+        width: 3.6rem;
+        top: 0.6rem;
+        left: 0.8rem;
+    }
+
+    .about-LR {
+        flex-direction: column;
+        width: 83%;
+        height: 87.5%;
+        margin-left: 2.5rem;
+        margin-top: 7.2rem;
+        border-radius: 1.4%;
+    }
+
+    .about-R h2 {
+        margin-top: -13%;
+        margin-left: 28%;
+        font-size: 3.8rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .fa {
+        font-size: 2.8rem;
+        padding-right: 1.2rem;
+        top: 0.7rem;
+        left: 31%;
+    }
+
+    .fa-github {
+        padding-left: 1rem;
+    }
+
+    .username {
+        font-size: 2.3rem;
+        margin-top: -11%;
+        margin-left: 27%;
+    }
+
+    .about-R {
+        margin-left: 5.5rem;
+    }
+
+    .about-R hr {
+        width: 90%;
+        margin-top: 1.4rem;
+    }
+
+    .about-R p {
+        font-size: 1.65rem;
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+    .about-R p+p {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 185vh;
+    }
+
+    .project-visual {
+        height: 32vh;
+    }
+
+    .project-showcase {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        row-gap: 1.2rem;
+    }
+
+    .project-container p {
+        font-size: 1.6rem;
+        width: 65%;
+    }
+
+    .project-container h2 {
+        font-size: 2.3rem;
+    }
+
+    /* contact */
+    .contact {
+        height: 75vh;
+    }
+
+    .contact .navname {
+        margin-top: -5rem;
+    }
+
+    .contact-text {
+        width: 75%;
+        height: 60%;
+
+    }
+
+    .contact-text h3 {
+        font-size: 3rem;
+    }
+
+    .contact-text p {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 565px) and (max-width: 635px) {
+
+    /* header */
+    .sparkle {
+        top: -8.5rem;
+        left: -16.5rem;
+        transform: rotate(48deg);
+        scale: 0.9;
+    }
+
+    .scrollArrowContainer {
+        margin-top: 7rem;
+    }
+
+    .header-text {
+        font-size: 2.4rem;
+        margin-top: 4rem;
+    }
+
+    .header-myname {
+        font-size: 5rem;
+    }
+
+    nav ol li {
+        font-size: 1.8rem;
+        margin: 2.6rem 2rem 0 2rem;
+        padding-right: 2rem;
+    }
+
+    /* side nav */
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.6rem;
+        letter-spacing: 0.5rem;
+        margin-left: -2.2rem;
+        margin-top: 65rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: -3.6rem;
+        margin-top: -31rem;
+        font-size: 2.8rem;
+        transform: rotate(270deg);
+    }
+
+    /* about */
+    .about {
+        height: 128vh;
+    }
+
+    .selfie {
+        top: 3.5%;
+        left: 31%;
+        height: 16.5rem;
+        width: 16rem;
+        padding: 0.9rem;
+    }
+
+    .active-button {
+        height: 5.1rem;
+        width: 5.6rem;
+        top: -29%;
+        left: 57%;
+    }
+
+    .inner-active-button {
+        height: 3.6rem;
+        width: 3.6rem;
+        top: 0.6rem;
+        left: 0.9rem;
+    }
+
+    .about-LR {
+        flex-direction: column;
+        width: 83%;
+        height: 87.5%;
+        margin-left: 2.3rem;
+        margin-top: 7.2rem;
+        border-radius: 1.4%;
+    }
+
+    .about-R h2 {
+        margin-top: -13%;
+        margin-left: 28%;
+        font-size: 3.8rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .fa {
+        font-size: 2.8rem;
+        padding-right: 1.2rem;
+        top: 0.7rem;
+        left: 31.5%;
+    }
+
+    .fa-github {
+        padding-left: 1rem;
+    }
+
+    .username {
+        font-size: 2.3rem;
+        margin-top: -13%;
+        margin-left: 27%;
+    }
+
+    .about-R {
+        margin-left: 5.5rem;
+    }
+
+    .about-R hr {
+        width: 90%;
+        margin-top: 1.4rem;
+    }
+
+    .about-R p {
+        font-size: 1.65rem;
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+    .about-R p+p {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 185vh;
+    }
+
+    .project-visual {
+        height: 32vh;
+    }
+
+    .project-showcase {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        row-gap: 1.2rem;
+    }
+
+    .project-container p {
+        font-size: 1.6rem;
+        width: 65%;
+    }
+
+    .project-container h2 {
+        font-size: 2.3rem;
+    }
+
+    /* contact */
+    .contact {
+        height: 75vh;
+    }
+
+    .contact .navname {
+        margin-top: -5rem;
+    }
+
+    .contact-text {
+        width: 75%;
+        height: 60%;
+
+    }
+
+    .contact-text h3 {
+        font-size: 3rem;
+    }
+
+    .contact-text p {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.6rem;
+    }
+}
+
+/* SIDE NAVS TO VERTICAL NAVS IN NEXT MEDIA QUERY */
+
 /* towards larger desktop */
 @media (min-width: 1444px) and (max-width: 1488px) {
     .project-showcase {
