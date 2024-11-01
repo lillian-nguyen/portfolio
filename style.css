@@ -1712,10 +1712,6 @@ button:hover {
         height: 55vh;
     }
 
-    /* .contact .navname {
-        margin-top: -5rem;
-    } */
-
     .contact-text {
         width: 82%;
         height: 65%;
@@ -1733,6 +1729,8 @@ button:hover {
         font-size: 1.6rem;
     }
 }
+
+/* next: media query for 499px*/
 
 /* towards larger desktop */
 @media (min-width: 1444px) and (max-width: 1488px) {
