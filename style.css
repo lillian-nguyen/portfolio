@@ -316,6 +316,11 @@ li::marker {
     justify-content: space-around;
 }
 
+.project-description {
+    width: 72%;
+    margin: 0 auto;
+}
+
 .project-container {
     text-align: center;
 }
