@@ -516,8 +516,6 @@ button:hover {
 @media (max-width: 1024px) {
     .container {
         max-width: 768px;
-        border: 3px solid blue;
-        border: none;
     }
 
     /* sidebar name & num */
@@ -599,7 +597,7 @@ button:hover {
     .about-LR {
         display: flex;
         flex-direction: column;
-        margin-left: 7rem;
+        margin-left: 5rem;
         width: 75%;
         height: 80%;
     }
@@ -640,7 +638,136 @@ button:hover {
     }
 }
 
-/* */
+/* md in progress*/
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+        border: 1px solid pink;
+    }
+
+    /* header */
+    .header-location {
+        width: 70%;
+    }
+
+    .sparkle {
+        top: -1rem;
+        left: -9.5rem;
+        transform: rotate(48deg);
+        scale: 0.88;
+    }
+
+    .scrollArrowContainer {
+        padding-top: 3rem;
+    }
+
+    .headerPhotoContainer {
+        background-position: 45%;
+    }
+
+    /* sidebar name & num */
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.9rem;
+        margin-left: -1.7rem;
+        margin-top: 72rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: -1.4rem;
+        margin-top: -28rem;
+        font-size: 2.9rem;
+        transform: rotate(270deg);
+        transform-origin: 0 0;
+    }
+
+    /* about */
+    .about-LR {
+        margin-left: 4rem;
+        width: 78%;
+    }
+
+    .selfie {
+        top: 1.2rem;
+        height: 15rem;
+        width: 14rem;
+        padding: 1.1rem;
+    }
+
+    .active-button {
+        height: 5rem;
+        width: 5rem;
+        top: -7rem;
+        left: 13rem;
+    }
+
+    .inner-active-button {
+        height: 3.5rem;
+        width: 3.5rem;
+        top: 0.7rem;
+        left: 0.7rem;
+    }
+
+    .about-R h2 {
+        margin-top: -24.5rem;
+        margin-left: -10rem;
+        font-size: 3.3rem;
+        letter-spacing: 0.4rem;
+    }
+
+    .username {
+        font-size: 2.1rem;
+        letter-spacing: 0.1rem;
+        margin-top: -20.5rem;
+        margin-left: -8.5rem;
+    }
+
+    .about-R hr {
+        width: 95%;
+        left: -3.5rem;
+        top: -15.5rem;
+    }
+
+    .fa {
+        font-size: 2.6rem;
+        padding-right: 1rem;
+        top: -6rem;
+        left: 3.6rem;
+    }
+
+    .about-R p {
+        font-size: 1.7rem;
+        margin-top: -15rem;
+        margin-left: -3rem;
+        width: 97%;
+    }
+
+    /* projects */
+    .projects {
+        height: 180vh;
+    }
+
+    .project-visual {
+        height: 31vh;
+    }
+
+    /* contact */
+    .contact {
+        height: 93vh;
+    }
+
+    .contact-text p {
+        font-size: 2.2rem;
+    }
+
+    button {
+        font-size: 1.8rem;
+        margin-top: 2rem;
+    }
+
+}
 
 
 /* in progress: media queries towards mobile 
