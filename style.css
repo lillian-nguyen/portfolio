@@ -303,7 +303,7 @@ li::marker {
 
 /* P R O J E C T S */
 .projects {
-    height: 118vh;
+    height: 175vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -314,11 +314,14 @@ li::marker {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    row-gap: 2rem;
+
 }
 
 .project-description {
     width: 72%;
     margin: 0 auto;
+    padding-top: 0.9rem;
 }
 
 .project-container {
@@ -326,7 +329,7 @@ li::marker {
 }
 
 .project-visual {
-    height: 30vh;
+    height: 40vh;
 }
 
 .project-container h2 {
@@ -350,7 +353,7 @@ li::marker {
     height: 3.8rem;
     width: 9rem;
     font-size: 1.8rem;
-    margin-top: -0.8rem;
+    margin-top: 1.5rem;
 }
 
 /* C O N T A C T */
@@ -418,6 +421,20 @@ button:hover {
     .container {
         max-width: 1280px;
     }
+
+    /* projects */
+    .projects {
+        height: 175.5vh;
+    }
+
+    .project-visual {
+        height: 35vh;
+    }
+
+    /* contact */
+    .contact .navname {
+        margin-top: 4rem;
+    }
 }
 
 /* xl */
@@ -425,12 +442,73 @@ button:hover {
     .container {
         max-width: 1024px;
     }
-}
 
-/* lg */
-@media (max-width: 1024px) {
-    .container {
-        max-width: 768px;
+    /* sidebar name & num */
+    .sidenav-name,
+    .sidenav-name2 {
+        /* font-size: 3.3rem; */
+        letter-spacing: 0.4rem;
+        margin-left: -3.5rem;
+        margin-top: 72rem;
+        padding-left: 30rem;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 1rem;
+        margin-top: -42rem;
+        padding-left: 0.1rem;
+        font-size: 3.2rem;
+        position: sticky;
+        top: 10px;
+    }
+
+    /* about */
+
+    .about {
+        height: 110vh;
+    }
+
+    .selfie {
+        top: 24rem;
+        left: 3.5rem;
+        border-radius: 50%;
+        height: 24.5rem;
+        width: 23rem;
+        padding: 1.3rem;
+    }
+
+    .active-button {
+        height: 6.3rem;
+        width: 6.3rem;
+        top: 14.2rem;
+        left: 22.5rem;
+    }
+
+    .inner-active-button {
+        height: 4.3rem;
+        width: 4.3rem;
+        top: 0.8rem;
+        left: 1rem;
+    }
+
+    .about-R p {
+        font-size: 2rem;
+        width: 93%;
+        margin-top: 3rem;
+    }
+
+    /* contact */
+    .contact {
+        height: 93vh;
+    }
+
+    button {
+        font-size: 2.1rem;
+    }
+
+    .contact .navname {
+        margin-top: 4rem;
     }
 }
 
