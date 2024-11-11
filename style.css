@@ -420,11 +420,12 @@ button:hover {
 @media (max-width: 1536px) {
     .container {
         max-width: 1280px;
+        border: 1px solid yellow;
     }
 
     /* projects */
     .projects {
-        height: 175.5vh;
+        height: 195vh;
     }
 
     .project-visual {
@@ -638,7 +639,7 @@ button:hover {
     }
 }
 
-/* md in progress*/
+/* md*/
 @media (max-width: 768px) {
     .container {
         max-width: 640px;
@@ -685,7 +686,8 @@ button:hover {
 
     /* about */
     .about-LR {
-        margin-left: 4rem;
+        margin-left: auto;
+        margin-right: auto;
         width: 78%;
     }
 
@@ -769,6 +771,146 @@ button:hover {
 
 }
 
+/* sm: changing up the side headers to vertical. media queries done with height 778px */
+@media (max-width: 640px) {
+
+    .container {
+        max-width: 475px;
+        border: 1px solid purple;
+    }
+
+    /* side nav to vertical */
+    .solid-side-nav {
+        width: 100vw;
+        height: 7rem;
+        position: absolute;
+    }
+
+    .sidenav-name,
+    .sidenav-name2 {
+        font-size: 2.7rem;
+        transform: rotate(0deg);
+        position: relative;
+        top: -70rem;
+        left: -28%;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        font-size: 2.8rem;
+        transform: rotate(0deg);
+        margin-top: -73rem;
+        margin-left: 12rem;
+    }
+
+    /* header */
+    nav ol li {
+        font-size: 1.7rem;
+        padding-right: 1rem;
+    }
+
+    .sparkle {
+        top: -8rem;
+        left: -18rem;
+        scale: 0.75;
+    }
+
+    .header-text {
+        font-size: 2.6rem;
+    }
+
+    .header-myname {
+        font-size: 4.8rem;
+    }
+
+    /* about */
+
+    .about {
+        height: 133vh;
+    }
+
+    .about-LR {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10.5rem;
+        width: 88%;
+        height: 76.5%;
+    }
+
+    .about-R hr {
+        width: 100%;
+        left: -4.4rem;
+    }
+
+    .about-R p {
+        font-size: 1.6rem;
+        width: 108%;
+        margin-left: -5rem;
+    }
+
+    .selfie {
+        height: 13.5rem;
+        width: 12.5rem;
+    }
+
+    .active-button {
+        height: 4rem;
+        width: 4rem;
+        top: -6rem;
+        left: 12rem;
+    }
+
+    .inner-active-button {
+        height: 2.9rem;
+        width: 2.9rem;
+        top: 0.4rem;
+        left: 0.5rem;
+    }
+
+    /* project */
+    .projects {
+        height: 184vh;
+        height: 177vh;
+    }
+
+    .projects-sidenav {
+        margin-top: -137rem;
+    }
+
+    .project-visual {
+        height: 27vh;
+    }
+
+    .project-container p {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .project-container button {
+        height: 3.5rem;
+        width: 7rem;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
+    /* contact */
+    .contact {
+        height: 98vh;
+    }
+
+    .contact-sidenav {
+        margin-top: -70rem;
+    }
+
+    .contact-text h3 {
+        font-size: 3.3rem;
+    }
+
+    .contact-text {
+        width: 94%;
+        height: 55%;
+    }
+}
 
 /* in progress: media queries towards mobile 
 
