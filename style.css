@@ -101,6 +101,7 @@ li::marker {
     font-size: 2.8rem;
     letter-spacing: 0.3rem;
     color: #8b8f74;
+    text-shadow: 3px 2px 2px rgb(230, 230, 230);
 }
 
 .header-myname {
@@ -869,7 +870,7 @@ button:hover {
 
     /* project */
     .projects {
-        height: 184vh;
+        /* height: 184vh; */
         height: 177vh;
     }
 
@@ -912,7 +913,131 @@ button:hover {
     }
 }
 
-/* in progress: media queries towards mobile 
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        max-width: 100%;
+    }
 
+    /* sidenav */
+
+    .sidenav-name,
+    .sidenav-name2 {
+        left: -40%;
+    }
+
+    .sidenav-num,
+    .sidenav-num2 {
+        margin-left: 5rem;
+    }
+
+    /* header */
+
+    nav ol li {
+        font-size: 1.5rem;
+        padding-right: 0.7rem;
+    }
+
+    .sparkle {
+        top: -16rem;
+        left: -17.5rem;
+        scale: 0.65;
+    }
+
+    .header-text {
+        font-size: 2.4rem;
+    }
+
+    .header-myname {
+        font-size: 4.2rem;
+    }
+
+    /* about */
+
+    .about {
+        height: 138vh;
+    }
+
+    .about-LR {
+        width: 86%;
+        height: 76%;
+        margin-top: 10.5rem;
+    }
+
+    .inner-active-button {
+        height: 2.7rem;
+        width: 2.7rem;
+        top: 0.6rem;
+        left: 0.6rem;
+    }
+
+    .about-R hr {
+        width: 105%;
+        margin-top: -1.5rem;
+        margin-left: -1rem;
+    }
+
+    .about-R p {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        margin-left: -5.9rem;
+        width: 118%;
+    }
+
+    /* projects */
+
+    .projects {
+        height: 177vh;
+    }
+
+    .projects-sidenav {
+        margin-top: -135rem;
+    }
+
+    .project-visual {
+        height: 24vh;
+    }
+
+    /* contact */
+    .contact-sidenav {
+        margin-top: -60.7rem;
+        margin-top: -70rem;
+    }
+
+    .contact-text h3 {
+        font-size: 2.8rem;
+    }
+
+    .contact-text p {
+        font-size: 1.9rem;
+    }
+
+    button {
+        margin-top: 0rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* xs adjustments for sidebars */
+
+@media (max-width: 420px) {
+
+    .sidenav-name,
+    .sidenav-name2 {
+        left: -45%;
+    }
+}
+
+@media (max-width: 399px) {
+
+    .sidenav-name,
+    .sidenav-name2 {
+        left: -52%;
+    }
+}
+
+/* in progress: 
+
+- check media queries across devices
 -add links for projects
 */
