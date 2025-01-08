@@ -7,7 +7,7 @@
     <!-- external CSS link -->
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="style.css">
-    <!-- fonts: homemade apple, raleway, inter-->
+    <!-- fonts: homemade apple, raleway, poppins-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
@@ -26,7 +26,8 @@
 
         <!-- fontawesome kit-->
         <script src="https://kit.fontawesome.com/c354af1bb2.js" crossorigin="anonymous"></script>
-
+        <!-- resume icon -->
+        <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
     
 </head>
 <body>
@@ -41,10 +42,10 @@
         </nav>
 
         <section class="headerPhotoContainer">
-            <section class="header-text container">
-                <h3 class="header-intro">Hi, my name is</h3>
-                <h1 class="header-myname">Lillian Nguyen;</h1>
-                <h3 class="header-location">I'm a software engineer based in Houston, Texas.</h3>
+            <section class="header-text">
+                <!-- <h3 class="header-intro">Hi, my name is</h3> -->
+                <h1 class="header-myname">Lillian Nguyen</h1>
+                <h3 class="header-location">software engineer based in Houston, TX</h3>
 
                 <div class="scrollArrowContainer bounce">
                     <span></span>
@@ -59,7 +60,50 @@
     
     <!-- A B O U T -->
     <section class="about" id="about-section">
-        <div class="solid-side-nav">
+        <div class="solid-side-nav about-sidenav">
+            <nav class="about-navname navname">
+                <ul>
+                    <li class="sidenav-name">about</li>
+                    <li class="sidenav-num">01</li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="about-container">
+
+            <div class="about-bar-top"></div>
+
+            <section class="about-row1">
+                <section class="selfie-container"><img class="selfie" src="beach2.jpg" alt="selfie"></section>
+                <section class="about-names">
+                    <h2>Lillian</h2>
+                    <h4 id="username">savvy sprout</h4>
+                </section>
+            </section>
+
+            <section class="about-row2">
+            <p>I’m a passionate software engineer dedicated to building websites and applications that serve my local community. My background in biology and healthcare brings a strong foundation in analytical thinking, problem-solving, and collaboration to every project. I develop client solutions that blend accessibility, aesthetics, and engaging user experiences, primarily using HTML, CSS, and JavaScript.</p>
+            <p>When I'm not coding, you can find me baking sweet treats, going for a run, or diving into a good book - all of which spark joy and fuel my creativity. Let's connect and bring your vision to life!</p> 
+            </section>
+
+            <!-- <hr> -->
+
+            <div class="about-bar-bottom">
+                <section class="about-row3">
+                    <a href="https://github.com/lillian-nguyen"><i class="fa fa-brands fa-github socials"></i></a>
+                    <a href="www.linkedin.com/in/ldv-nguyen"><i class="fa fa-brands fa-linkedin-in socials"></i></a>
+                    <a href="#" download="ln-resume"><i class="iconsax socials" icon-name="document-download"></i></a>
+                </section>
+          
+            </div>
+            
+        </section>
+    </section>
+
+
+
+    <!-- <section class="about" id="about-section">
+        <div class="solid-side-nav about-sidenav">
             <nav class="about-navname navname">
                 <ul>
                     <li class="sidenav-name">about</li>
@@ -68,37 +112,31 @@
             </nav>
         </div>
        
-        <section class="about-LR container">
-            <section class="about-L container">
+        <section class="about-LR">
+            <section class="about-L">
                 <img class="selfie" src="beach.jpg" alt="selfie">
                 <div class="active-button"><div class="inner-active-button"></div></div>
             </section>
-            <section class="about-R container">
-                <section class="about-row1 container">
+            <section class="about-R">
+                <section class="about-row1">
                     <h2>Lillian</h2>
                     <a href="https://github.com/lillian-nguyen"><i class="fa fa-brands fa-github"></i></a>
                     <a href="www.linkedin.com/in/ldv-nguyen"><i class="fa fa-brands fa-linkedin-in"></i></a>
-                    <!-- <a href="#" download="ln-resume">
+                    <a href="#" download="ln-resume">
                         <i class="fa fa-solid fa-file"></i>
-                    </a> -->
+                    </a> 
                     
                 </section>
              
-                <div class="username-container container">
-                    <h4 class="username">savvy sprout</h4>
-                </div>
-                
+                <h4 class="username">savvy sprout</h4>
                 
                 <hr>
-                <div class="bio container">
-                    <p>I’m a passionate software engineer dedicated to building websites and applications that serve my local community. My background in biology and healthcare brings a strong foundation in analytical thinking, problem-solving, and collaboration to every project. I develop client solutions that blend accessibility, aesthetics, and engaging user experiences, primarily using HTML, CSS, and JavaScript.</p>
-                    <p>When I'm not coding, you can find me baking sweet treats, going for a run, or diving into a good book - all of which spark joy and fuel my creativity. Let's connect and bring your vision to life!</p>
-                </div>
-                
+                <p>I’m a passionate software engineer dedicated to building websites and applications that serve my local community. My background in biology and healthcare brings a strong foundation in analytical thinking, problem-solving, and collaboration to every project. I develop client solutions that blend accessibility, aesthetics, and engaging user experiences, primarily using HTML, CSS, and JavaScript.</p>
+                <p>When I'm not coding, you can find me baking sweet treats, going for a run, or diving into a good book - all of which spark joy and fuel my creativity. Let's connect and bring your vision to life!</p> 
             </section>
         </section>
        
-    </section>
+    </section> -->
     
     <!-- P R O J E C T S  -->
     <section class="projects" id="projects-section">
@@ -111,27 +149,27 @@
             </nav>
         </div>
 
-        <section class="project-showcase container">
+        <section class="project-showcase">
 
             <section class="p1 project-container">
                 
                 <h2>Peter's Dominican Barbershop</h2>
                 <video class="project-visual" src="barber-demo.mp4" autoplay loop muted></video>
-                <p class="project-description"><span></span>Connecting local businesses to their communities through unique personal branding</p>
+                <p><span></span>Connecting local businesses to their communities through unique personal branding</p>
                 <button>visit</button>
             </section>
 
             <section class="p2 project-container">
                 <h2>Venture Weavers</h2>
                 <video class="project-visual" src="vw-demo.mp4" autoplay loop muted></video>
-                <p class="project-description"><span></span>Increasing client visability with a polisehd presentation of consulting services</p>
+                <p><span></span>Increasing client visibility with a polished presentation of services</p>
                 <button>visit</button>
             </section>
 
             <section class="p3 project-container">
                 <h2>Cocktail Database</h2>
                 <video class="project-visual" src="cocktaildb.mp4" autoplay loop muted></video>
-                <p class="project-description"><span>javascript, API - </span>Intuitive platform for exploring cocktail recipes with an API</p>
+                <p><span>javascript, API - </span>Intuitive platform for exploring cocktail recipes through the cocktail API</p>
                 <button>visit</button>
             </section>
         </section>
@@ -149,7 +187,7 @@
             </nav>
         </div>
 
-        <section class="contact-text container">
+        <section class="contact-text">
             <h3>Thanks for stopping by!</h3>
             <p>Feel free to reach out with questions or simply say hi! I am currently open to potential collaborations or projects and look forward to connecting with you. </p>
             <a href="mailto:lil@gmail.com">

@@ -14,7 +14,6 @@ body {
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 2px solid red;
 }
 
 /* H E A D E R */
@@ -81,17 +80,19 @@ li::marker {
     flex-direction: column;
     align-items: center;
     margin-top: -2%;
-    background-image: url('wildflowers.jpg');
+    background-image: url('blueflower.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 33%;
     transform: scale(0.9);
     border: 8px solid #B4BBC8;
     background-color: #e9e4e4;
+    opacity: 0.9;
 }
 
 .header-text {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,22 +101,29 @@ li::marker {
     font-family: "Raleway", sans-serif;
     font-size: 2.8rem;
     letter-spacing: 0.3rem;
-    color: #8b8f74;
-    text-shadow: 3px 2px 2px rgb(230, 230, 230);
+    /* color: #8b8f74; */
+    color: rgba(43, 49, 45, 0.889);
+    /* color: rgb(103, 90, 63); */
+    /* text-shadow: 3px 2px 2px rgb(230, 230, 230); */
+    text-shadow: 2px 3px 2px whitesmoke;
 }
 
 .header-myname {
     font-family: "Homemade Apple", cursive;
-    font-size: 6rem;
-    color: #93ac9d;
-    background-color: rgb(255, 247, 247);
+    font-size: 6.4rem;
+    /* color: #93ac9d; */
+    color: rgb(220, 151, 32);
+    /* color: rgb(135, 162, 145); */
+    /* color: #495e35; */
+    text-shadow: 4px 3px 6px whitesmoke;
+    /* background-color: rgba(255, 247, 247, 0.7); */
     margin: 0 auto;
 }
 
 .header-location {
     margin: 0 auto;
     margin-top: 2.8rem;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .sparkle {
@@ -207,19 +215,140 @@ li::marker {
     top: 10px;
 }
 
-.selfie {
-    position: relative;
-    top: 19rem;
-    left: 4.2rem;
-    border-radius: 50%;
-    height: 25.5rem;
-    width: 24rem;
-    border: 3px solid #E9E4E4;
-    background-color: white;
-    padding: 1.4rem;
+.about-container {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 70%;
+    height: 78%;
+    margin-left: 10%;
+    margin-top: 9rem;
+    /* border-radius: 1.4%; */
 }
 
-.active-button {
+.about-bar-top {
+    height: 1%;
+    background-color: #93ac9d;
+}
+
+.about-bar-bottom {
+    height: 15%;
+    /* background-color: pink; */
+    position: relative;
+    bottom: 0;
+}
+
+.about-row1 {
+    display: flex;
+    /* justify-content: center; !!!! */
+    /* border: 2px solid green; */
+    height: 38%;
+    width: 55%;
+
+}
+
+.selfie-container {
+    /* border: 2px solid yellow; */
+    width: 55%;
+}
+
+.about-names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid pink; */
+    width: 45%;
+    padding-left: 1rem;
+}
+
+.about-names h2,
+#username {
+    margin: 0;
+}
+
+.selfie {
+    position: relative;
+    top: 5%;
+    left: 25%;
+    border-radius: 50%;
+    height: 18rem;
+    width: 17rem;
+    border: 3px solid #E9E4E4;
+    background-color: white;
+    padding: 1rem;
+}
+
+.about-names h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+}
+
+#username {
+    font-family: "Inter", sans-serif;
+    color: #93ac9d;
+    font-size: 2.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.about-row2 {
+    height: 45%;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.about-row2 p {
+    /* border: 2px solid pink; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 9%;
+}
+
+.about-row2 p+p {
+    margin-top: 1.2rem;
+    padding-top: 0.3rem;
+}
+
+hr {
+    width: 100%;
+}
+
+.about-bar-bottom {
+    display: flex;
+    align-items: center;
+    border-radius: 2%;
+    border-top: 5px solid white;
+}
+
+.about-row3 {
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+
+.fa,
+.iconsax {
+    font-size: 3rem;
+    color: #B4BBC8;
+    color: white;
+    /* position: relative;
+    top: 9%;
+    left: 47%; */
+    border: 2px solid #93ac9d;
+    border-radius: 50%;
+    padding: 0.6rem;
+    background-color: #93ac9d;
+}
+
+.fa-linkedin-in,
+.iconsax {
+    margin-left: 1rem;
+}
+
+/* .active-button {
     background-color: #F2F2F2;
     height: 6.8rem;
     width: 6.8rem;
@@ -300,7 +429,7 @@ li::marker {
 .about-R p+p {
     margin-top: 0rem;
     padding-top: 1.8rem;
-}
+} */
 
 /* P R O J E C T S */
 .projects {
@@ -549,9 +678,8 @@ button:hover {
         height: 118vh;
     }
 
-    .selfie {
+    /* .selfie {
         top: 1.2rem;
-        /* left: 27rem; */
         left: 0rem;
         height: 17rem;
         width: 16rem;
@@ -563,20 +691,17 @@ button:hover {
         width: 6rem;
         top: -7rem;
         left: 13rem;
-        /* left: 40rem; */
     }
 
     .inner-active-button {
         height: 4.2rem;
         width: 4.2rem;
         top: 0.8rem;
-        /* left: 1rem; */
     }
 
     .about-R h2 {
         margin-top: -24.4rem;
         margin-left: -10rem;
-        /* margin-left: 15.5rem; */
         font-size: 3.8rem;
         letter-spacing: 0.4rem;
     }
@@ -592,7 +717,6 @@ button:hover {
         font-size: 2.8rem;
         padding-right: 1rem;
         top: -6.5rem;
-        /* left: 31rem; */
         left: 5rem;
     }
 
@@ -610,8 +734,6 @@ button:hover {
 
     .about-R hr {
         width: 90%;
-        /* margin-top: -1.5rem;
-        margin-left: -23.3rem; */
         position: relative;
         left: -1.5rem;
         top: -14rem;
@@ -622,7 +744,7 @@ button:hover {
         width: 90%;
         margin-top: -13rem;
         margin-left: -1rem;
-    }
+    } */
 
     /* projects */
     .projects {
