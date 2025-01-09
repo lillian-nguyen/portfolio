@@ -370,89 +370,6 @@ hr {
     margin-left: 1rem;
 }
 
-/* .active-button {
-    background-color: #F2F2F2;
-    height: 6.8rem;
-    width: 6.8rem;
-    border-radius: 50%;
-    position: relative;
-    top: 10rem;
-    left: 23rem;
-}
-
-.inner-active-button {
-    background-color: #22753E;
-    height: 4.5rem;
-    width: 4.5rem;
-    border-radius: 50%;
-    position: relative;
-    top: 0.8rem;
-    left: 1rem;
-}
-
-.about-LR {
-    display: flex;
-    flex-direction: row;
-    background-color: whitesmoke;
-    width: 78.5%;
-    height: 78%;
-    margin-left: 8rem;
-    margin-top: 9rem;
-    border-radius: 1.4%;
-}
-
-.about-R {
-    display: flex;
-    flex-direction: column;
-    margin-left: 9.7rem;
-    margin-top: 3rem;
-}
-
-.about-R h2 {
-    font-family: "Poppins", sans-serif;
-    margin-top: 0.4rem;
-    font-size: 4.2rem;
-    letter-spacing: 0.4rem;
-}
-
-.fa {
-    font-size: 3rem;
-    color: #B4BBC8;
-    padding-right: 1.6rem;
-    position: relative;
-    top: -7.5rem;
-    left: 16.5rem;
-}
-
-.username {
-    font-family: "Inter", sans-serif;
-    color: #93ac9d;
-    font-size: 2.4rem;
-    letter-spacing: 0.1rem;
-    margin-top: -4.8rem;
-}
-
-.about-R hr {
-    width: 88%;
-    margin-left: 0rem;
-    margin-top: -1rem;
-    border: 2px solid #E9E4E4;
-}
-
-.about-R p {
-    font-size: 2.2rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    line-height: 3rem;
-    width: 93%;
-    margin-top: 3rem;
-}
-
-.about-R p+p {
-    margin-top: 0rem;
-    padding-top: 1.8rem;
-} */
-
 /* P R O J E C T S */
 .projects {
     height: 175vh;
@@ -465,6 +382,7 @@ hr {
 
 .projects-sidenav {
     background-color: rgb(92, 124, 154);
+    border-right: 3px solid rgb(58, 81, 101);
 }
 
 .project-showcase {
@@ -529,7 +447,8 @@ hr {
 }
 
 .contact-sidenav {
-    background-color: rgb(220, 151, 32);
+    background-color: rgb(232, 184, 101);
+    border-right: 3px solid rgb(220, 151, 32);
 }
 
 .contact .navname {
@@ -545,7 +464,7 @@ hr {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: rgb(210, 190, 125);
+    background-color: rgb(232, 184, 101);
     border-radius: 2rem;
     border: 4px solid white;
 }
