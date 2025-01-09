@@ -101,22 +101,15 @@ li::marker {
     font-family: "Raleway", sans-serif;
     font-size: 2.8rem;
     letter-spacing: 0.3rem;
-    /* color: #8b8f74; */
     color: rgba(43, 49, 45, 0.889);
-    /* color: rgb(103, 90, 63); */
-    /* text-shadow: 3px 2px 2px rgb(230, 230, 230); */
     text-shadow: 2px 3px 2px whitesmoke;
 }
 
 .header-myname {
     font-family: "Homemade Apple", cursive;
     font-size: 6.4rem;
-    /* color: #93ac9d; */
     color: rgb(220, 151, 32);
-    /* color: rgb(135, 162, 145); */
-    /* color: #495e35; */
     text-shadow: 4px 3px 6px whitesmoke;
-    /* background-color: rgba(255, 247, 247, 0.7); */
     margin: 0 auto;
 }
 
@@ -188,6 +181,11 @@ li::marker {
     position: relative;
 }
 
+.about-sidenav {
+    background-color: #b0c4b1;
+    border-right: 3px solid #93ac9d;
+}
+
 .navname>ul {
     font-family: "Poppins", sans-serif;
     list-style-type: none;
@@ -209,8 +207,8 @@ li::marker {
 .sidenav-num2 {
     margin-left: 2.8rem;
     margin-top: -42rem;
+    color: white;
     font-size: 3.6rem;
-    color: #B4BBC8;
     position: sticky;
     top: 10px;
 }
@@ -218,7 +216,7 @@ li::marker {
 .about-container {
     display: flex;
     flex-direction: column;
-    background-color: whitesmoke;
+    background-color: #b0c4b1;
     width: 70%;
     height: 78%;
     margin-left: 10%;
@@ -233,37 +231,16 @@ li::marker {
 
 .about-bar-bottom {
     height: 15%;
-    /* background-color: pink; */
     position: relative;
     bottom: 0;
 }
 
 .about-row1 {
     display: flex;
-    /* justify-content: center; !!!! */
+    justify-content: center;
     /* border: 2px solid green; */
     height: 38%;
-    width: 55%;
-
-}
-
-.selfie-container {
-    /* border: 2px solid yellow; */
-    width: 55%;
-}
-
-.about-names {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* border: 2px solid pink; */
-    width: 45%;
-    padding-left: 1rem;
-}
-
-.about-names h2,
-#username {
-    margin: 0;
+    width: 100%;
 }
 
 .selfie {
@@ -271,22 +248,58 @@ li::marker {
     top: 5%;
     left: 25%;
     border-radius: 50%;
-    height: 18rem;
-    width: 17rem;
+    height: 17rem;
+    width: 16rem;
     border: 3px solid #E9E4E4;
-    background-color: white;
+    /* border: 3px solid #93ac9d; */
     padding: 1rem;
+}
+
+.active-button {
+    /* background-color: #F2F2F2; */
+    background-color: #b0c4b1;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    position: relative;
+    top: 13rem;
+    left: -0.5rem;
+}
+
+.inner-active-button {
+    background-color: #22753E;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: relative;
+    top: 0.8rem;
+    left: 1rem;
+}
+
+.about-names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid pink; */
+}
+
+.about-names h2,
+#username {
+    margin: 0;
 }
 
 .about-names h2 {
     font-family: "Poppins", sans-serif;
     font-size: 3rem;
     letter-spacing: 0.4rem;
+    margin-top: -3rem;
 }
 
 #username {
     font-family: "Inter", sans-serif;
-    color: #93ac9d;
+    /* color: rgb(220, 151, 32); */
+    color: #22753E;
     font-size: 2.1rem;
     letter-spacing: 0.1rem;
 }
@@ -321,7 +334,7 @@ hr {
     display: flex;
     align-items: center;
     border-radius: 2%;
-    border-top: 5px solid white;
+    border-top: 3px solid white;
 }
 
 .about-row3 {
@@ -332,15 +345,24 @@ hr {
 .fa,
 .iconsax {
     font-size: 3rem;
-    color: #B4BBC8;
     color: white;
-    /* position: relative;
-    top: 9%;
-    left: 47%; */
     border: 2px solid #93ac9d;
     border-radius: 50%;
     padding: 0.6rem;
     background-color: #93ac9d;
+    color: #22753E;
+}
+
+.fa-linkedin-in {
+    color: rgb(113, 145, 241);
+    background-color: rgb(154, 186, 193);
+    border: 2px solid rgb(154, 186, 193);
+}
+
+.iconsax {
+    color: rgb(220, 151, 32);
+    background-color: rgb(183, 178, 167);
+    border: 2px solid rgb(183, 178, 167);
 }
 
 .fa-linkedin-in,
@@ -438,6 +460,11 @@ hr {
     display: flex;
     align-items: center;
     background-color: #93ac9d;
+    background-color: rgb(154, 186, 193);
+}
+
+.projects-sidenav {
+    background-color: rgb(92, 124, 154);
 }
 
 .project-showcase {
@@ -465,7 +492,7 @@ hr {
 .project-container h2 {
     font-family: "Inter", sans-serif;
     font-size: 2.5rem;
-    color: white;
+    color: rgb(92, 124, 154);
 }
 
 .project-container span {
@@ -484,6 +511,8 @@ hr {
     width: 9rem;
     font-size: 1.8rem;
     margin-top: 1.5rem;
+    background-color: rgb(123, 160, 190);
+    color: white;
 }
 
 /* C O N T A C T */
@@ -499,6 +528,10 @@ hr {
     overflow: hidden;
 }
 
+.contact-sidenav {
+    background-color: rgb(220, 151, 32);
+}
+
 .contact .navname {
     margin-top: -7rem;
 }
@@ -512,7 +545,7 @@ hr {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(147, 172, 157, 0.95);
+    background-color: rgb(210, 190, 125);
     border-radius: 2rem;
     border: 4px solid white;
 }
@@ -520,7 +553,7 @@ hr {
 .contact-text h3 {
     font-family: "Poppins", sans-serif;
     font-size: 3.5rem;
-    color: whitesmoke;
+    color: rgb(180, 121, 28);
 }
 
 .contact-text p {
@@ -535,7 +568,8 @@ button {
     font-size: 2.2rem;
     padding: 0.8rem 1.8rem;
     border-radius: 2rem;
-    background-color: white;
+    background-color: rgb(220, 151, 32);
+    color: white;
 }
 
 button:hover {

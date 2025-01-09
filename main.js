@@ -47,16 +47,15 @@ function hoverSocials(event) {
     //which icon is being hovered over? 
     if (icon.classList.contains('fa-linkedin-in')) {
         //change color & set username
-        linkedin.style.color = '#93ac9d';
+        linkedin.style.color = 'rgb(113, 145, 241)';
         linkedin.style.backgroundColor = 'white';
         username.innerText = '@ldv-nguyen'
     } else if (icon.classList.contains('fa-github')) {
         //change color & set username
-        github.style.color = '#93ac9d';
+        github.style.color = '#22753E';
         github.style.backgroundColor = 'white';
         username.innerText = '@lillian-nguyen'
     } else {
-        resume.style.color = '#93ac9d';
         resume.style.backgroundColor = 'white';
         username.innerText = 'view resume'
     }
@@ -65,9 +64,12 @@ function hoverSocials(event) {
 //changes icon to default color and sets default text of savvy sprout
 function revertSocials(event, icon) {
     // const icon = event.target;
-    socials.forEach(social => {
-        social.style.color = 'white';
-        social.style.backgroundColor = '#9eac9d';
-    })
+    //reset github colors 
+    github.style.backgroundColor = '#93ac9d';
+    //reset linkedin colors
+    linkedin.style.backgroundColor = 'rgb(154, 186, 193)';
+    //reset resume colors
+    resume.style.backgroundColor = 'rgb(183, 178, 167';
+    //reset username
     username.innerText = 'savvy sprout'
 }
