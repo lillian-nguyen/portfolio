@@ -14,7 +14,7 @@ body {
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 /* H E A D E R */
@@ -492,7 +492,7 @@ button:hover {
 @media (max-width: 1536px) {
     .container {
         max-width: 1280px;
-        border: 1px solid yellow;
+        border: 2px solid yellow;
     }
 
     /* projects */
@@ -514,6 +514,7 @@ button:hover {
 @media (max-width: 1280px) {
     .container {
         max-width: 1024px;
+        border: 3px solid purple;
     }
 
     /* sidebar name & num */
@@ -537,6 +538,20 @@ button:hover {
     }
 
     /* about */
+
+    /* .about-container {
+        height: 82%;
+        width: 72%;
+        margin-top: 7rem;
+    }
+
+    .selfie {
+        height: 15rem;
+        width: 14rem;
+    } */
+
+
+
 
     /* .about {
         height: 110vh;
