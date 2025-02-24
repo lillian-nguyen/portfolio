@@ -7,7 +7,7 @@
     <!-- external CSS link -->
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="style.css">
-    <!-- fonts: homemade apple, raleway, inter-->
+    <!-- fonts: homemade apple, raleway, inter, poppins-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
@@ -26,7 +26,8 @@
 
         <!-- fontawesome kit-->
         <script src="https://kit.fontawesome.com/c354af1bb2.js" crossorigin="anonymous"></script>
-
+        <!-- resume icon -->
+        <link href="https://iconsax.gitlab.io/i/icons.css" rel="stylesheet">
     
 </head>
 <body>
@@ -42,9 +43,9 @@
 
         <section class="headerPhotoContainer">
             <section class="header-text">
-                <h3 class="header-intro">Hi, my name is</h3>
-                <h1 class="header-myname">Lillian Nguyen;</h1>
-                <h3 class="header-location">I'm a software engineer based in Houston, Texas.</h3>
+                <!-- <h3 class="header-intro">Hi, my name is</h3> -->
+                <h1 class="header-myname">Lillian Nguyen</h1>
+                <h3 class="header-location">software engineer based in Houston, TX</h3>
 
                 <div class="scrollArrowContainer bounce">
                     <span></span>
@@ -67,31 +68,38 @@
                 </ul>
             </nav>
         </div>
-       
-        <section class="about-LR">
-            <section class="about-L">
-                <img class="selfie" src="beach.jpg" alt="selfie">
-                <div class="active-button"><div class="inner-active-button"></div></div>
-            </section>
-            <section class="about-R">
-                <section class="about-row1">
-                    <h2>Lillian</h2>
-                    <a href="https://github.com/lillian-nguyen"><i class="fa fa-brands fa-github"></i></a>
-                    <a href="www.linkedin.com/in/ldv-nguyen"><i class="fa fa-brands fa-linkedin-in"></i></a>
-                    <!-- <a href="#" download="ln-resume">
-                        <i class="fa fa-solid fa-file"></i>
-                    </a> -->
-                    
+
+        <section class="about-container container">
+
+            <div class="about-bar-top"></div>
+
+            <section class="about-row1">
+                <section class="selfie-container">
+                    <img class="selfie" src="beach2.jpg" alt="selfie">
+                    <div class="active-button"><div class="inner-active-button"></div></div>
                 </section>
-             
-                <h4 class="username">savvy sprout</h4>
-                
-                <hr>
-                <p>I’m a passionate software engineer dedicated to building websites and applications that serve my local community. My background in biology and healthcare brings a strong foundation in analytical thinking, problem-solving, and collaboration to every project. I develop client solutions that blend accessibility, aesthetics, and engaging user experiences, primarily using HTML, CSS, and JavaScript.</p>
-                <p>When I'm not coding, you can find me baking sweet treats, going for a run, or diving into a good book - all of which spark joy and fuel my creativity. Let's connect and bring your vision to life!</p> 
+                    
+                <section class="about-names">
+                    <h2>Lillian</h2>
+                    <h4 id="username">savvy sprout</h4>
+                </section>
             </section>
+
+            <section class="about-row2">
+            <p>I’m a passionate software engineer dedicated to building websites and applications that serve my local community. My background in biology and healthcare brings a strong foundation in analytical thinking, problem-solving, and collaboration to every project. I develop client solutions that blend accessibility, aesthetics, and engaging user experiences, primarily using HTML, CSS, and JavaScript.</p>
+            <p>When I'm not coding, you can find me baking sweet treats, going for a run, or diving into a good book - all of which spark joy and fuel my creativity. Let's connect and bring your vision to life!</p> 
+            </section>
+
+            <div class="about-bar-bottom">
+                <section class="about-row3">
+                    <a href="https://github.com/lillian-nguyen" target="_blank"><i class="fa fa-brands fa-github socials"></i></a>
+                    <a href="https://www.linkedin.com/in/ldv-nguyen" target="_blank"><i class="fa fa-brands fa-linkedin-in socials"></i></a>
+                    <a href="#" download="ln-resume"><i class="iconsax socials" icon-name="document-download"></i></a>
+                </section>
+          
+            </div>
+            
         </section>
-       
     </section>
     
     <!-- P R O J E C T S  -->
@@ -105,7 +113,7 @@
             </nav>
         </div>
 
-        <section class="project-showcase">
+        <section class="project-showcase container">
 
             <section class="p1 project-container">
                 
@@ -125,7 +133,9 @@
             <section class="p3 project-container">
                 <h2>Cocktail Database</h2>
                 <video class="project-visual" src="cocktaildb.mp4" autoplay loop muted></video>
-                <p><span>javascript, API - </span>Intuitive platform for exploring cocktail recipes through the cocktail API</p>
+
+                <p><span>javascript, API - </span>Intuitive platform for exploring cocktail recipes using a cocktail API</p>
+
                 <button>visit</button>
             </section>
         </section>
