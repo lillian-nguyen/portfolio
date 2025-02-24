@@ -1,67 +1,70 @@
-html {
-    font-size: 10px;
-    scroll-behavior: smooth;
-}
-
 html,
 body {
     height: 100%;
 }
 
-.container {
-    max-width: 1536px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border: 2px solid red;
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+/* font classes */
+
+.homeMadeApple {
+    font-family: "Homemade Apple", cursive;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #FAEFE5;
+}
+
+/* flex classes */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 /* H E A D E R */
 
 header {
     height: 100%;
-    width: 100%;
-    background-color: #E9E4E4;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 nav ol {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
     flex-wrap: nowrap;
     margin-top: -0.7%;
 }
 
 nav ol li {
-    font-family: "Raleway", sans-serif;
     font-size: 2rem;
     margin: 2.6rem 2rem 0 2rem;
     padding-right: 4rem;
     letter-spacing: 0.3rem;
 }
 
-.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E9E4E4;
+nav {
     width: 100%;
+    position: fixed;
+    background-color: #E9E4E4;
     height: 7.5%;
-    z-index: 100;
-    border-bottom: 6.8px solid #B4BBC8;
-}
-
-.remove-border {
-    border-bottom: none;
-}
-
-.return-border {
-    border-bottom: 6.8px solid #B4BBC8;
+    z-index: 10;
+    border-bottom: 3px solid #B4BBC8;
 }
 
 a {
@@ -76,37 +79,23 @@ li::marker {
 
 .headerPhotoContainer {
     height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -2%;
-    background-image: url('blueflower.jpg');
+    background-image: url('/assets/blueflower.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 33%;
     transform: scale(0.9);
-    border: 8px solid #B4BBC8;
-    background-color: #e9e4e4;
+    border: 6px solid #B4BBC8;
 }
 
 .header-text {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
     font-size: 2.8rem;
-    text-shadow: 1px 1px 2px rgba(204, 202, 202, 0.919);
+    text-align: center;
+    margin: 0 auto;
     letter-spacing: 0.3rem;
     text-shadow: 2px 3px 2px whitesmoke;
 }
 
 .header-myname {
-    font-family: "Homemade Apple", cursive;
     font-size: 6.4rem;
     color: rgb(220, 151, 32);
     text-shadow: 4px 3px 6px whitesmoke;
@@ -118,15 +107,8 @@ li::marker {
     margin-top: 2.8rem;
 }
 
-.sparkle {
-    position: absolute;
-    top: -4rem;
-    left: -8.5rem;
-    transform: rotate(28deg);
-}
-
 .scrollArrowContainer {
-    margin-top: 3rem;
+    margin-top: 5rem;
     transform: translate(-50%, -50%);
 }
 
@@ -134,8 +116,8 @@ li::marker {
     display: block;
     width: 2.9rem;
     height: 2.9rem;
-    border-bottom: 3px solid #93ac9d;
-    border-right: 3px solid #8b8f74;
+    border-bottom: 4px solid #93ac9d;
+    border-right: 4px solid #8b8f74;
     transform: rotate(45deg);
 }
 
@@ -296,7 +278,6 @@ li::marker {
 
 #username {
     font-family: "Inter", sans-serif;
-    /* color: rgb(220, 151, 32); */
     color: #22753E;
     font-size: 2.1rem;
     letter-spacing: 0.1rem;
@@ -305,11 +286,9 @@ li::marker {
 .about-row2 {
     height: 45%;
     width: 100%;
-    /* border: 2px solid green; */
 }
 
 .about-row2 p {
-    /* border: 2px solid pink; */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.8rem;
@@ -365,8 +344,6 @@ li::marker {
 
 /* P R O J E C T S */
 .projects {
-    /* height: 175vh; */
-    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
@@ -487,4 +464,3 @@ button:hover {
 }
 
 /* M E D I A  Q U E R I E S */
-
