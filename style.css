@@ -233,124 +233,30 @@ h2{
 }
 
 /* P R O J E C T S */
-.projects {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: rgb(154, 186, 193);
+
+#projectCard1, #projectCard2{
+    background-color: rgb(222, 221, 220);
 }
 
-.projects-sidenav {
-    background-color: rgb(92, 124, 154);
-    border-right: 3px solid rgb(58, 81, 101);
-    min-height: inherit;
+video{
+    height: 35rem;
 }
 
-.project-showcase {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap: 2rem;
+.project-title{
+    font-size: 2rem;
+    padding-top: 1.3rem;
 }
 
-.project-description {
-    width: 72%;
-    margin: 0 auto;
-    padding-top: 0.9rem;
+.technologies{
+    padding-top: 1.5rem;
+    column-gap: 1rem;
 }
 
-.project-container {
-    text-align: center;
-}
-
-.project-visual {
-    height: 40vh;
-}
-
-.project-container h2 {
-    font-family: "Inter", sans-serif;
-    font-size: 2.5rem;
-    color: rgb(92, 124, 154);
-}
-
-.project-container span {
-    font-weight: bold;
-    padding-bottom: 2rem;
-}
-
-.project-container p {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.project-container button {
-    height: 3.8rem;
-    width: 9rem;
-    font-size: 1.8rem;
+.technologies span{
+    font-size: 1.3rem;
 }
 
 /* C O N T A C T */
-.contact {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-size: 3rem 3rem;
-    background-image: radial-gradient(circle at 0.2rem 0.2rem, #C0D3E4 0.2rem, transparent 0);
-    overflow: hidden;
-}
 
-.contact-sidenav {
-    background-color: rgb(232, 184, 101);
-    border-right: 3px solid rgb(220, 151, 32);
-}
-
-.contact .navname {
-    margin-top: -7rem;
-}
-
-.contact-text {
-    display: flex;
-    width: 75%;
-    height: 70%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    background-color: rgb(232, 184, 101);
-    border-radius: 2rem;
-    border: 6px double rgb(220, 151, 32);
-}
-
-.contact-text h3 {
-    font-family: "Poppins", sans-serif;
-    font-size: 3.5rem;
-    color: rgb(180, 121, 28);
-}
-
-.contact-text p {
-    font-family: "Poppins", sans-serif;
-    font-size: 2.5rem;
-    width: 85%;
-    margin-top: -1rem;
-}
-
-button {
-    font-family: "Poppins", sans-serif;
-    font-size: 2.2rem;
-    padding: 0.8rem 1.8rem;
-    margin-top: 5%;
-    border-radius: 2rem;
-    background-color: rgb(220, 151, 32);
-    color: white;
-}
-
-button:hover {
-    cursor: pointer;
-}
 
 /* M E D I A  Q U E R I E S */
