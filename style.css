@@ -277,13 +277,28 @@ button{
 }
 
 #contact-section a{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 /* cursor: pointer */
 button:hover,
 i {
     cursor: pointer;
+}
+
+/* F O O T E R */
+
+footer {
+    margin-top: 4rem;
+}
+
+.socials-container {
+    font-size: 3.5rem;
+    color: rgb(220, 151, 32);
+}
+
+footer h4 {
+    font-size: 1.4rem;
 }
 
 /* M E D I A  Q U E R I E S */
