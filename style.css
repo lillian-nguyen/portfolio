@@ -364,17 +364,18 @@ li::marker {
 
 /* P R O J E C T S */
 .projects {
-    height: 175vh;
+    /* height: 175vh; */
+    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #93ac9d;
     background-color: rgb(154, 186, 193);
 }
 
 .projects-sidenav {
     background-color: rgb(92, 124, 154);
     border-right: 3px solid rgb(58, 81, 101);
+    min-height: inherit;
 }
 
 .project-showcase {
@@ -382,7 +383,6 @@ li::marker {
     flex-wrap: wrap;
     justify-content: space-around;
     row-gap: 2rem;
-
 }
 
 .project-description {
